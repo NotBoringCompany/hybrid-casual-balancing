@@ -1,3 +1,5 @@
+import path from 'path'
+import fs from 'fs'
 import { PlayerLevelMechanics } from '../../models/player'
 import { getMaxSkillLevel } from './skill'
 import { getMaxWeaponLevel } from './weapon'
@@ -54,4 +56,16 @@ const calculatePlayerLevelMechanics = (): PlayerLevelMechanics[] => {
     }
 
     return playerLevelMechanics
+}
+
+/**
+ * Creates a new player level mechanics JSON file with the intended mechanics from `calculatePlayerLevelMechanics`.
+ */
+const createPlayerLevelMechanics = (): void => {
+    const playerMechanics = calculatePlayerLevelMechanics()
+
+    const outputPath = path.join(__dirname, '../../../mechanics/player-mechanics/playerLevelMechanics.json')
+    fs.writeFileSync(outputPath, JSON.stringify(playerMechanics, null, 4))
+
+    console.log('Player level mechanics JSON file created!')
 }

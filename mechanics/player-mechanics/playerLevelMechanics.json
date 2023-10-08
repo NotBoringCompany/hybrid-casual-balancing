@@ -1,0 +1,1352 @@
+[
+    {
+        "level": 1,
+        "baseHp": 350,
+        "baseHpRegen": 0.5,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 115,
+        "maxSkillLevel": 1,
+        "maxWeaponLevel": 1
+    },
+    {
+        "level": 2,
+        "baseHp": 425,
+        "baseHpRegen": 3.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 180,
+        "maxSkillLevel": 1,
+        "maxWeaponLevel": 2
+    },
+    {
+        "level": 3,
+        "baseHp": 500,
+        "baseHpRegen": 4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 275,
+        "maxSkillLevel": 1,
+        "maxWeaponLevel": 3
+    },
+    {
+        "level": 4,
+        "baseHp": 575,
+        "baseHpRegen": 4.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 400,
+        "maxSkillLevel": 1,
+        "maxWeaponLevel": 4
+    },
+    {
+        "level": 5,
+        "baseHp": 650,
+        "baseHpRegen": 5.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 555,
+        "maxSkillLevel": 2,
+        "maxWeaponLevel": 5
+    },
+    {
+        "level": 6,
+        "baseHp": 725,
+        "baseHpRegen": 5.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 740,
+        "maxSkillLevel": 2,
+        "maxWeaponLevel": 6
+    },
+    {
+        "level": 7,
+        "baseHp": 800,
+        "baseHpRegen": 6.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 955,
+        "maxSkillLevel": 2,
+        "maxWeaponLevel": 7
+    },
+    {
+        "level": 8,
+        "baseHp": 875,
+        "baseHpRegen": 7,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 1200,
+        "maxSkillLevel": 2,
+        "maxWeaponLevel": 8
+    },
+    {
+        "level": 9,
+        "baseHp": 950,
+        "baseHpRegen": 7.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 1475,
+        "maxSkillLevel": 2,
+        "maxWeaponLevel": 9
+    },
+    {
+        "level": 10,
+        "baseHp": 1025,
+        "baseHpRegen": 8.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 1780,
+        "maxSkillLevel": 3,
+        "maxWeaponLevel": 10
+    },
+    {
+        "level": 11,
+        "baseHp": 1100,
+        "baseHpRegen": 8.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 2115,
+        "maxSkillLevel": 3,
+        "maxWeaponLevel": 11
+    },
+    {
+        "level": 12,
+        "baseHp": 1175,
+        "baseHpRegen": 9.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 2480,
+        "maxSkillLevel": 3,
+        "maxWeaponLevel": 12
+    },
+    {
+        "level": 13,
+        "baseHp": 1250,
+        "baseHpRegen": 10,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 2875,
+        "maxSkillLevel": 3,
+        "maxWeaponLevel": 13
+    },
+    {
+        "level": 14,
+        "baseHp": 1325,
+        "baseHpRegen": 10.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 3300,
+        "maxSkillLevel": 3,
+        "maxWeaponLevel": 14
+    },
+    {
+        "level": 15,
+        "baseHp": 1400,
+        "baseHpRegen": 11.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 3755,
+        "maxSkillLevel": 3,
+        "maxWeaponLevel": 15
+    },
+    {
+        "level": 16,
+        "baseHp": 1475,
+        "baseHpRegen": 11.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 4240,
+        "maxSkillLevel": 3,
+        "maxWeaponLevel": 15
+    },
+    {
+        "level": 17,
+        "baseHp": 1550,
+        "baseHpRegen": 12.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 4755,
+        "maxSkillLevel": 3,
+        "maxWeaponLevel": 16
+    },
+    {
+        "level": 18,
+        "baseHp": 1625,
+        "baseHpRegen": 13,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 5300,
+        "maxSkillLevel": 3,
+        "maxWeaponLevel": 16
+    },
+    {
+        "level": 19,
+        "baseHp": 1700,
+        "baseHpRegen": 13.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 5875,
+        "maxSkillLevel": 3,
+        "maxWeaponLevel": 17
+    },
+    {
+        "level": 20,
+        "baseHp": 1775,
+        "baseHpRegen": 14.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 6480,
+        "maxSkillLevel": 4,
+        "maxWeaponLevel": 17
+    },
+    {
+        "level": 21,
+        "baseHp": 1850,
+        "baseHpRegen": 14.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 7115,
+        "maxSkillLevel": 4,
+        "maxWeaponLevel": 18
+    },
+    {
+        "level": 22,
+        "baseHp": 1925,
+        "baseHpRegen": 15.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 7780,
+        "maxSkillLevel": 4,
+        "maxWeaponLevel": 18
+    },
+    {
+        "level": 23,
+        "baseHp": 2000,
+        "baseHpRegen": 16,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 8475,
+        "maxSkillLevel": 4,
+        "maxWeaponLevel": 19
+    },
+    {
+        "level": 24,
+        "baseHp": 2075,
+        "baseHpRegen": 16.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 9200,
+        "maxSkillLevel": 4,
+        "maxWeaponLevel": 19
+    },
+    {
+        "level": 25,
+        "baseHp": 2150,
+        "baseHpRegen": 17.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 9955,
+        "maxSkillLevel": 4,
+        "maxWeaponLevel": 20
+    },
+    {
+        "level": 26,
+        "baseHp": 2225,
+        "baseHpRegen": 17.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 10740,
+        "maxSkillLevel": 4,
+        "maxWeaponLevel": 20
+    },
+    {
+        "level": 27,
+        "baseHp": 2300,
+        "baseHpRegen": 18.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 11555,
+        "maxSkillLevel": 4,
+        "maxWeaponLevel": 21
+    },
+    {
+        "level": 28,
+        "baseHp": 2375,
+        "baseHpRegen": 19,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 12400,
+        "maxSkillLevel": 4,
+        "maxWeaponLevel": 21
+    },
+    {
+        "level": 29,
+        "baseHp": 2450,
+        "baseHpRegen": 19.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 13275,
+        "maxSkillLevel": 4,
+        "maxWeaponLevel": 22
+    },
+    {
+        "level": 30,
+        "baseHp": 2525,
+        "baseHpRegen": 20.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 14180,
+        "maxSkillLevel": 5,
+        "maxWeaponLevel": 22
+    },
+    {
+        "level": 31,
+        "baseHp": 2600,
+        "baseHpRegen": 20.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 15115,
+        "maxSkillLevel": 5,
+        "maxWeaponLevel": 23
+    },
+    {
+        "level": 32,
+        "baseHp": 2675,
+        "baseHpRegen": 21.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 16080,
+        "maxSkillLevel": 5,
+        "maxWeaponLevel": 23
+    },
+    {
+        "level": 33,
+        "baseHp": 2750,
+        "baseHpRegen": 22,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 17075,
+        "maxSkillLevel": 5,
+        "maxWeaponLevel": 24
+    },
+    {
+        "level": 34,
+        "baseHp": 2825,
+        "baseHpRegen": 22.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 18100,
+        "maxSkillLevel": 5,
+        "maxWeaponLevel": 24
+    },
+    {
+        "level": 35,
+        "baseHp": 2900,
+        "baseHpRegen": 23.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 19155,
+        "maxSkillLevel": 5,
+        "maxWeaponLevel": 25
+    },
+    {
+        "level": 36,
+        "baseHp": 2975,
+        "baseHpRegen": 23.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 20240,
+        "maxSkillLevel": 5,
+        "maxWeaponLevel": 25
+    },
+    {
+        "level": 37,
+        "baseHp": 3050,
+        "baseHpRegen": 24.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 21355,
+        "maxSkillLevel": 5,
+        "maxWeaponLevel": 26
+    },
+    {
+        "level": 38,
+        "baseHp": 3125,
+        "baseHpRegen": 25,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 22500,
+        "maxSkillLevel": 5,
+        "maxWeaponLevel": 26
+    },
+    {
+        "level": 39,
+        "baseHp": 3200,
+        "baseHpRegen": 25.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 23675,
+        "maxSkillLevel": 5,
+        "maxWeaponLevel": 27
+    },
+    {
+        "level": 40,
+        "baseHp": 3275,
+        "baseHpRegen": 26.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 24880,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 27
+    },
+    {
+        "level": 41,
+        "baseHp": 3350,
+        "baseHpRegen": 26.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 26115,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 28
+    },
+    {
+        "level": 42,
+        "baseHp": 3425,
+        "baseHpRegen": 27.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 27380,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 28
+    },
+    {
+        "level": 43,
+        "baseHp": 3500,
+        "baseHpRegen": 28,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 28675,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 29
+    },
+    {
+        "level": 44,
+        "baseHp": 3575,
+        "baseHpRegen": 28.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 30000,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 29
+    },
+    {
+        "level": 45,
+        "baseHp": 3650,
+        "baseHpRegen": 29.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 31355,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 30
+    },
+    {
+        "level": 46,
+        "baseHp": 3725,
+        "baseHpRegen": 29.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 32740,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 30
+    },
+    {
+        "level": 47,
+        "baseHp": 3800,
+        "baseHpRegen": 30.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 34155,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 30
+    },
+    {
+        "level": 48,
+        "baseHp": 3875,
+        "baseHpRegen": 31,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 35600,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 31
+    },
+    {
+        "level": 49,
+        "baseHp": 3950,
+        "baseHpRegen": 31.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 37075,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 31
+    },
+    {
+        "level": 50,
+        "baseHp": 4025,
+        "baseHpRegen": 32.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 38580,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 31
+    },
+    {
+        "level": 51,
+        "baseHp": 4100,
+        "baseHpRegen": 32.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 40115,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 32
+    },
+    {
+        "level": 52,
+        "baseHp": 4175,
+        "baseHpRegen": 33.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 41680,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 32
+    },
+    {
+        "level": 53,
+        "baseHp": 4250,
+        "baseHpRegen": 34,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 43275,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 32
+    },
+    {
+        "level": 54,
+        "baseHp": 4325,
+        "baseHpRegen": 34.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 44900,
+        "maxSkillLevel": 6,
+        "maxWeaponLevel": 33
+    },
+    {
+        "level": 55,
+        "baseHp": 4400,
+        "baseHpRegen": 35.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 46555,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 33
+    },
+    {
+        "level": 56,
+        "baseHp": 4475,
+        "baseHpRegen": 35.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 48240,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 33
+    },
+    {
+        "level": 57,
+        "baseHp": 4550,
+        "baseHpRegen": 36.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 49955,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 34
+    },
+    {
+        "level": 58,
+        "baseHp": 4625,
+        "baseHpRegen": 37,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 51700,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 34
+    },
+    {
+        "level": 59,
+        "baseHp": 4700,
+        "baseHpRegen": 37.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 53475,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 34
+    },
+    {
+        "level": 60,
+        "baseHp": 4775,
+        "baseHpRegen": 38.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 55280,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 35
+    },
+    {
+        "level": 61,
+        "baseHp": 4850,
+        "baseHpRegen": 38.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 57115,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 35
+    },
+    {
+        "level": 62,
+        "baseHp": 4925,
+        "baseHpRegen": 39.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 58980,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 35
+    },
+    {
+        "level": 63,
+        "baseHp": 5000,
+        "baseHpRegen": 40,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 60875,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 36
+    },
+    {
+        "level": 64,
+        "baseHp": 5075,
+        "baseHpRegen": 40.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 62800,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 36
+    },
+    {
+        "level": 65,
+        "baseHp": 5150,
+        "baseHpRegen": 41.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 64755,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 36
+    },
+    {
+        "level": 66,
+        "baseHp": 5225,
+        "baseHpRegen": 41.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 66740,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 37
+    },
+    {
+        "level": 67,
+        "baseHp": 5300,
+        "baseHpRegen": 42.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 68755,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 37
+    },
+    {
+        "level": 68,
+        "baseHp": 5375,
+        "baseHpRegen": 43,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 70800,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 37
+    },
+    {
+        "level": 69,
+        "baseHp": 5450,
+        "baseHpRegen": 43.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 72875,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 38
+    },
+    {
+        "level": 70,
+        "baseHp": 5525,
+        "baseHpRegen": 44.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 74980,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 38
+    },
+    {
+        "level": 71,
+        "baseHp": 5600,
+        "baseHpRegen": 44.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 77115,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 38
+    },
+    {
+        "level": 72,
+        "baseHp": 5675,
+        "baseHpRegen": 45.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 79280,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 39
+    },
+    {
+        "level": 73,
+        "baseHp": 5750,
+        "baseHpRegen": 46,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 81475,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 39
+    },
+    {
+        "level": 74,
+        "baseHp": 5825,
+        "baseHpRegen": 46.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 83700,
+        "maxSkillLevel": 7,
+        "maxWeaponLevel": 39
+    },
+    {
+        "level": 75,
+        "baseHp": 5900,
+        "baseHpRegen": 47.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 85955,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 40
+    },
+    {
+        "level": 76,
+        "baseHp": 5975,
+        "baseHpRegen": 47.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 88240,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 40
+    },
+    {
+        "level": 77,
+        "baseHp": 6050,
+        "baseHpRegen": 48.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 90555,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 40
+    },
+    {
+        "level": 78,
+        "baseHp": 6125,
+        "baseHpRegen": 49,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 92900,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 41
+    },
+    {
+        "level": 79,
+        "baseHp": 6200,
+        "baseHpRegen": 49.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 95275,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 41
+    },
+    {
+        "level": 80,
+        "baseHp": 6275,
+        "baseHpRegen": 50.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 97680,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 41
+    },
+    {
+        "level": 81,
+        "baseHp": 6350,
+        "baseHpRegen": 50.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 100115,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 42
+    },
+    {
+        "level": 82,
+        "baseHp": 6425,
+        "baseHpRegen": 51.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 102580,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 42
+    },
+    {
+        "level": 83,
+        "baseHp": 6500,
+        "baseHpRegen": 52,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 105075,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 42
+    },
+    {
+        "level": 84,
+        "baseHp": 6575,
+        "baseHpRegen": 52.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 107600,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 43
+    },
+    {
+        "level": 85,
+        "baseHp": 6650,
+        "baseHpRegen": 53.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 110155,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 43
+    },
+    {
+        "level": 86,
+        "baseHp": 6725,
+        "baseHpRegen": 53.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 112740,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 43
+    },
+    {
+        "level": 87,
+        "baseHp": 6800,
+        "baseHpRegen": 54.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 115355,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 44
+    },
+    {
+        "level": 88,
+        "baseHp": 6875,
+        "baseHpRegen": 55,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 118000,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 44
+    },
+    {
+        "level": 89,
+        "baseHp": 6950,
+        "baseHpRegen": 55.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 120675,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 44
+    },
+    {
+        "level": 90,
+        "baseHp": 7025,
+        "baseHpRegen": 56.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 123380,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 45
+    },
+    {
+        "level": 91,
+        "baseHp": 7100,
+        "baseHpRegen": 56.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 126115,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 45
+    },
+    {
+        "level": 92,
+        "baseHp": 7175,
+        "baseHpRegen": 57.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 128880,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 45
+    },
+    {
+        "level": 93,
+        "baseHp": 7250,
+        "baseHpRegen": 58,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 131675,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 45
+    },
+    {
+        "level": 94,
+        "baseHp": 7325,
+        "baseHpRegen": 58.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 134500,
+        "maxSkillLevel": 8,
+        "maxWeaponLevel": 45
+    },
+    {
+        "level": 95,
+        "baseHp": 7400,
+        "baseHpRegen": 59.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 137355,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 46
+    },
+    {
+        "level": 96,
+        "baseHp": 7475,
+        "baseHpRegen": 59.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 140240,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 46
+    },
+    {
+        "level": 97,
+        "baseHp": 7550,
+        "baseHpRegen": 60.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 143155,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 46
+    },
+    {
+        "level": 98,
+        "baseHp": 7625,
+        "baseHpRegen": 61,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 146100,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 46
+    },
+    {
+        "level": 99,
+        "baseHp": 7700,
+        "baseHpRegen": 61.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 149075,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 46
+    },
+    {
+        "level": 100,
+        "baseHp": 7775,
+        "baseHpRegen": 62.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 152080,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 47
+    },
+    {
+        "level": 101,
+        "baseHp": 7850,
+        "baseHpRegen": 62.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 155115,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 47
+    },
+    {
+        "level": 102,
+        "baseHp": 7925,
+        "baseHpRegen": 63.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 158180,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 47
+    },
+    {
+        "level": 103,
+        "baseHp": 8000,
+        "baseHpRegen": 64,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 161275,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 47
+    },
+    {
+        "level": 104,
+        "baseHp": 8075,
+        "baseHpRegen": 64.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 164400,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 47
+    },
+    {
+        "level": 105,
+        "baseHp": 8150,
+        "baseHpRegen": 65.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 167555,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 48
+    },
+    {
+        "level": 106,
+        "baseHp": 8225,
+        "baseHpRegen": 65.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 170740,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 48
+    },
+    {
+        "level": 107,
+        "baseHp": 8300,
+        "baseHpRegen": 66.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 173955,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 48
+    },
+    {
+        "level": 108,
+        "baseHp": 8375,
+        "baseHpRegen": 67,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 177200,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 48
+    },
+    {
+        "level": 109,
+        "baseHp": 8450,
+        "baseHpRegen": 67.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 180475,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 48
+    },
+    {
+        "level": 110,
+        "baseHp": 8525,
+        "baseHpRegen": 68.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 183780,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 49
+    },
+    {
+        "level": 111,
+        "baseHp": 8600,
+        "baseHpRegen": 68.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 187115,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 49
+    },
+    {
+        "level": 112,
+        "baseHp": 8675,
+        "baseHpRegen": 69.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 190480,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 49
+    },
+    {
+        "level": 113,
+        "baseHp": 8750,
+        "baseHpRegen": 70,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 193875,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 49
+    },
+    {
+        "level": 114,
+        "baseHp": 8825,
+        "baseHpRegen": 70.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 197300,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 49
+    },
+    {
+        "level": 115,
+        "baseHp": 8900,
+        "baseHpRegen": 71.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 200755,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 49
+    },
+    {
+        "level": 116,
+        "baseHp": 8975,
+        "baseHpRegen": 71.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 204240,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 49
+    },
+    {
+        "level": 117,
+        "baseHp": 9050,
+        "baseHpRegen": 72.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 207755,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 49
+    },
+    {
+        "level": 118,
+        "baseHp": 9125,
+        "baseHpRegen": 73,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 211300,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 49
+    },
+    {
+        "level": 119,
+        "baseHp": 9200,
+        "baseHpRegen": 73.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 214875,
+        "maxSkillLevel": 9,
+        "maxWeaponLevel": 49
+    },
+    {
+        "level": 120,
+        "baseHp": 9275,
+        "baseHpRegen": 74.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 218480,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 121,
+        "baseHp": 9350,
+        "baseHpRegen": 74.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 222115,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 122,
+        "baseHp": 9425,
+        "baseHpRegen": 75.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 225780,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 123,
+        "baseHp": 9500,
+        "baseHpRegen": 76,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 229475,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 124,
+        "baseHp": 9575,
+        "baseHpRegen": 76.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 233200,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 125,
+        "baseHp": 9650,
+        "baseHpRegen": 77.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 236955,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 126,
+        "baseHp": 9725,
+        "baseHpRegen": 77.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 240740,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 127,
+        "baseHp": 9800,
+        "baseHpRegen": 78.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 244555,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 128,
+        "baseHp": 9875,
+        "baseHpRegen": 79,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 248400,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 129,
+        "baseHp": 9950,
+        "baseHpRegen": 79.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 252275,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 130,
+        "baseHp": 10025,
+        "baseHpRegen": 80.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 256180,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 131,
+        "baseHp": 10100,
+        "baseHpRegen": 80.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 260115,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 132,
+        "baseHp": 10175,
+        "baseHpRegen": 81.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 264080,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 133,
+        "baseHp": 10250,
+        "baseHpRegen": 82,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 268075,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 134,
+        "baseHp": 10325,
+        "baseHpRegen": 82.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 272100,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 135,
+        "baseHp": 10400,
+        "baseHpRegen": 83.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 276155,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 136,
+        "baseHp": 10475,
+        "baseHpRegen": 83.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 280240,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 137,
+        "baseHp": 10550,
+        "baseHpRegen": 84.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 284355,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 138,
+        "baseHp": 10625,
+        "baseHpRegen": 85,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 288500,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 139,
+        "baseHp": 10700,
+        "baseHpRegen": 85.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 292675,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 140,
+        "baseHp": 10775,
+        "baseHpRegen": 86.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 296880,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 141,
+        "baseHp": 10850,
+        "baseHpRegen": 86.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 301115,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 142,
+        "baseHp": 10925,
+        "baseHpRegen": 87.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 305380,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 143,
+        "baseHp": 11000,
+        "baseHpRegen": 88,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 309675,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 144,
+        "baseHp": 11075,
+        "baseHpRegen": 88.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 314000,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 145,
+        "baseHp": 11150,
+        "baseHpRegen": 89.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 318355,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 146,
+        "baseHp": 11225,
+        "baseHpRegen": 89.8,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 322740,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 147,
+        "baseHp": 11300,
+        "baseHpRegen": 90.4,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 327155,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 148,
+        "baseHp": 11375,
+        "baseHpRegen": 91,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 331600,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 149,
+        "baseHp": 11450,
+        "baseHpRegen": 91.6,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 336075,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    },
+    {
+        "level": 150,
+        "baseHp": 11525,
+        "baseHpRegen": 92.2,
+        "baseMovementSpeed": 175,
+        "levelUpXpRequired": 340580,
+        "maxSkillLevel": 10,
+        "maxWeaponLevel": 50
+    }
+]
