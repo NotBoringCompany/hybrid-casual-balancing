@@ -27,7 +27,7 @@ export const createSkillLevelRequirement = async (): Promise<void> => {
     
         console.log('Skill level requirement JSON file created!')
     } catch (err) {
-        console.error('Error creating skill level requirement JSON file:', err);
+        console.error('Error creating skill level requirement JSON file:', err)
     }
 }
 

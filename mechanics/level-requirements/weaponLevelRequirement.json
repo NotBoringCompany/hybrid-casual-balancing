@@ -1,0 +1,202 @@
+[
+    {
+        "level": 1,
+        "minPlayerLevel": 1
+    },
+    {
+        "level": 2,
+        "minPlayerLevel": 2
+    },
+    {
+        "level": 3,
+        "minPlayerLevel": 3
+    },
+    {
+        "level": 4,
+        "minPlayerLevel": 4
+    },
+    {
+        "level": 5,
+        "minPlayerLevel": 5
+    },
+    {
+        "level": 6,
+        "minPlayerLevel": 6
+    },
+    {
+        "level": 7,
+        "minPlayerLevel": 7
+    },
+    {
+        "level": 8,
+        "minPlayerLevel": 8
+    },
+    {
+        "level": 9,
+        "minPlayerLevel": 9
+    },
+    {
+        "level": 10,
+        "minPlayerLevel": 10
+    },
+    {
+        "level": 11,
+        "minPlayerLevel": 11
+    },
+    {
+        "level": 12,
+        "minPlayerLevel": 12
+    },
+    {
+        "level": 13,
+        "minPlayerLevel": 13
+    },
+    {
+        "level": 14,
+        "minPlayerLevel": 14
+    },
+    {
+        "level": 15,
+        "minPlayerLevel": 15
+    },
+    {
+        "level": 16,
+        "minPlayerLevel": 17
+    },
+    {
+        "level": 17,
+        "minPlayerLevel": 19
+    },
+    {
+        "level": 18,
+        "minPlayerLevel": 21
+    },
+    {
+        "level": 19,
+        "minPlayerLevel": 23
+    },
+    {
+        "level": 20,
+        "minPlayerLevel": 25
+    },
+    {
+        "level": 21,
+        "minPlayerLevel": 27
+    },
+    {
+        "level": 22,
+        "minPlayerLevel": 29
+    },
+    {
+        "level": 23,
+        "minPlayerLevel": 31
+    },
+    {
+        "level": 24,
+        "minPlayerLevel": 33
+    },
+    {
+        "level": 25,
+        "minPlayerLevel": 35
+    },
+    {
+        "level": 26,
+        "minPlayerLevel": 37
+    },
+    {
+        "level": 27,
+        "minPlayerLevel": 39
+    },
+    {
+        "level": 28,
+        "minPlayerLevel": 41
+    },
+    {
+        "level": 29,
+        "minPlayerLevel": 43
+    },
+    {
+        "level": 30,
+        "minPlayerLevel": 45
+    },
+    {
+        "level": 31,
+        "minPlayerLevel": 48
+    },
+    {
+        "level": 32,
+        "minPlayerLevel": 51
+    },
+    {
+        "level": 33,
+        "minPlayerLevel": 54
+    },
+    {
+        "level": 34,
+        "minPlayerLevel": 57
+    },
+    {
+        "level": 35,
+        "minPlayerLevel": 60
+    },
+    {
+        "level": 36,
+        "minPlayerLevel": 63
+    },
+    {
+        "level": 37,
+        "minPlayerLevel": 66
+    },
+    {
+        "level": 38,
+        "minPlayerLevel": 69
+    },
+    {
+        "level": 39,
+        "minPlayerLevel": 72
+    },
+    {
+        "level": 40,
+        "minPlayerLevel": 75
+    },
+    {
+        "level": 41,
+        "minPlayerLevel": 78
+    },
+    {
+        "level": 42,
+        "minPlayerLevel": 81
+    },
+    {
+        "level": 43,
+        "minPlayerLevel": 84
+    },
+    {
+        "level": 44,
+        "minPlayerLevel": 87
+    },
+    {
+        "level": 45,
+        "minPlayerLevel": 90
+    },
+    {
+        "level": 46,
+        "minPlayerLevel": 95
+    },
+    {
+        "level": 47,
+        "minPlayerLevel": 100
+    },
+    {
+        "level": 48,
+        "minPlayerLevel": 105
+    },
+    {
+        "level": 49,
+        "minPlayerLevel": 110
+    },
+    {
+        "level": 50,
+        "minPlayerLevel": 120
+    }
+]
