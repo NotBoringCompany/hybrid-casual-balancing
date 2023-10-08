@@ -11,6 +11,7 @@ export interface PlayerLevelMechanics {
     // the base HP regen of the player at this level
     baseHpRegen: number,
     // the base movement speed of the player at this level
+    // calculated in unity units/second * 100
     baseMovementSpeed: number,
     // the xp required to level up from this level to the next level
     // note that this is cumulative, meaning that it will always be higher than the previous level's xp requirement

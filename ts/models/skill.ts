@@ -5,5 +5,5 @@ export interface SkillLevelRequirement {
     // the skill level
     level: number,
     // the minimum player level required to level up the skill to this level
-    minPlayerLevel: number,
+    minPlayerLevelRequired: number,
 }

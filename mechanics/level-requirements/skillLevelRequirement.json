@@ -1,42 +1,42 @@
 [
     {
         "level": 1,
-        "minPlayerLevel": 1
+        "minPlayerLevelRequired": 1
     },
     {
         "level": 2,
-        "minPlayerLevel": 5
+        "minPlayerLevelRequired": 5
     },
     {
         "level": 3,
-        "minPlayerLevel": 10
+        "minPlayerLevelRequired": 10
     },
     {
         "level": 4,
-        "minPlayerLevel": 20
+        "minPlayerLevelRequired": 20
     },
     {
         "level": 5,
-        "minPlayerLevel": 30
+        "minPlayerLevelRequired": 30
     },
     {
         "level": 6,
-        "minPlayerLevel": 40
+        "minPlayerLevelRequired": 40
     },
     {
         "level": 7,
-        "minPlayerLevel": 55
+        "minPlayerLevelRequired": 55
     },
     {
         "level": 8,
-        "minPlayerLevel": 75
+        "minPlayerLevelRequired": 75
     },
     {
         "level": 9,
-        "minPlayerLevel": 95
+        "minPlayerLevelRequired": 95
     },
     {
         "level": 10,
-        "minPlayerLevel": 120
+        "minPlayerLevelRequired": 120
     }
 ]

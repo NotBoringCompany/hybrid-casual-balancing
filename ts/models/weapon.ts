@@ -5,5 +5,5 @@ export interface WeaponLevelRequirement {
     // the weapon level
     level: number,
     // the minimum player level required to level up the weapon to this level
-    minPlayerLevel: number,
+    minPlayerLevelRequired: number,
 }

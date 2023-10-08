@@ -16,9 +16,9 @@ export const createSkillLevelRequirement = async (): Promise<void> => {
             // get the skill level
             const level = playerMechanicsSheet.getCell(i, 6).value as number ?? 0
             // get the minimum player level required
-            const minPlayerLevel = playerMechanicsSheet.getCell(i, 7).value as number ?? 0
+            const minPlayerLevelRequired = playerMechanicsSheet.getCell(i, 7).value as number ?? 0
     
-            skillLevelRequirements.push({ level, minPlayerLevel });
+            skillLevelRequirements.push({ level, minPlayerLevelRequired });
         }
     
         // create the JSON file
@@ -34,12 +34,13 @@ export const createSkillLevelRequirement = async (): Promise<void> => {
 /**
  * Gets the maximum skill level allowed for the player at a certain level.
  * @param level the player's level
+ * @returns the maximum skill level allowed for the player at a certain level
  */
 export const getMaxSkillLevel = (level: number): number => {
     const inputPath = fs.readFileSync(path.join(__dirname, '../../../mechanics/level-requirements/skillLevelRequirement.json')).toString('utf-8')
     const skillLevelRequirement = JSON.parse(inputPath) as SkillLevelRequirement[]
 
-    return skillLevelRequirement.filter((requirement: SkillLevelRequirement) => requirement.minPlayerLevel <= level).pop()?.level
+    return skillLevelRequirement.filter((requirement: SkillLevelRequirement) => requirement.minPlayerLevelRequired <= level).pop()?.level
 }
 
 

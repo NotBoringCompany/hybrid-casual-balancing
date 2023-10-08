@@ -14,9 +14,9 @@ export const createWeaponLevelRequirement = async (): Promise<void> => {
 
         for (let i = 2; i < 52; i++) {
             const level = playerMechanicsSheet.getCell(i, 9).value as number ?? 0
-            const minPlayerLevel = playerMechanicsSheet.getCell(i, 10).value as number ?? 0
+            const minPlayerLevelRequired = playerMechanicsSheet.getCell(i, 10).value as number ?? 0
 
-            weaponLevelRequirements.push({ level, minPlayerLevel });
+            weaponLevelRequirements.push({ level, minPlayerLevelRequired });
         }
 
         // create the JSON file
@@ -38,5 +38,5 @@ export const getMaxWeaponLevel = (level: number): number => {
     const inputPath = fs.readFileSync(path.join(__dirname, '../../../mechanics/level-requirements/weaponLevelRequirement.json')).toString('utf-8')
     const weaponLevelRequirement = JSON.parse(inputPath) as WeaponLevelRequirement[]
 
-    return weaponLevelRequirement.filter((requirement: WeaponLevelRequirement) => requirement.minPlayerLevel <= level).pop()?.level
+    return weaponLevelRequirement.filter((requirement: WeaponLevelRequirement) => requirement.minPlayerLevelRequired <= level).pop()?.level
 }
