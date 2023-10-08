@@ -7,27 +7,28 @@ import { SkillLevelRequirement } from '../../models/skill'
  * Creates a new skill level requirement JSON file with the intended mechanics (gathered from Google Sheets).
  */
 export const createSkillLevelRequirement = async (): Promise<void> => {
-    const skillLevelRequirements = []
-    const playerMechanicsSheet = await loadSheet('Account XP and Progression', 'G2:H12')
+    const skillLevelRequirements: SkillLevelRequirement[] = []
 
-    for (let i = 2; i < 12; i++) {
-        // get the skill level
-        const level = playerMechanicsSheet.getCell(i, 6).value as number ?? 0
-        // get the minimum player level required
-        const minPlayerLevel = playerMechanicsSheet.getCell(i, 7).value as number ?? 0
+    try {
+        const playerMechanicsSheet = await loadSheet('Account XP and Progression', 'G2:H12')
 
-        const skillLevelRequirement: SkillLevelRequirement = {
-            level,
-            minPlayerLevel,
+        for (let i = 2; i < 12; i++) {
+            // get the skill level
+            const level = playerMechanicsSheet.getCell(i, 6).value as number ?? 0
+            // get the minimum player level required
+            const minPlayerLevel = playerMechanicsSheet.getCell(i, 7).value as number ?? 0
+    
+            skillLevelRequirements.push({ level, minPlayerLevel });
         }
-
-        skillLevelRequirements.push(skillLevelRequirement)
+    
+        // create the JSON file
+        const outputPath = path.join(__dirname, '../../../mechanics/level-requirements')
+        fs.writeFileSync(outputPath, JSON.stringify(skillLevelRequirements, null, 4))
+    
+        console.log('Skill level requirement JSON file created!')
+    } catch (err) {
+        console.error('Error creating skill level requirement JSON file:', err);
     }
-
-    // create the JSON file
-    fs.writeFileSync(path.join(__dirname, '../../../mechanics/level-requirements/skillLevelRequirement.json'), JSON.stringify(skillLevelRequirements, null, 4))
-
-    console.log('Skill level requirement JSON file created!')
 }
 
 
