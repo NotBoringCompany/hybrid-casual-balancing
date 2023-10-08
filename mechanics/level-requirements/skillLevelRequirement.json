@@ -1,42 +1,42 @@
 [
     {
-        "skillLevel": 1,
-        "minAccLevelRequired": 1
+        "level": 1,
+        "minPlayerLevel": 1
     },
     {
-        "skillLevel": 2,
-        "minAccLevelRequired": 5
+        "level": 2,
+        "minPlayerLevel": 5
     },
     {
-        "skillLevel": 3,
-        "minAccLevelRequired": 10
+        "level": 3,
+        "minPlayerLevel": 10
     },
     {
-        "skillLevel": 4,
-        "minAccLevelRequired": 20
+        "level": 4,
+        "minPlayerLevel": 20
     },
     {
-        "skillLevel": 5,
-        "minAccLevelRequired": 30
+        "level": 5,
+        "minPlayerLevel": 30
     },
     {
-        "skillLevel": 6,
-        "minAccLevelRequired": 40
+        "level": 6,
+        "minPlayerLevel": 40
     },
     {
-        "skillLevel": 7,
-        "minAccLevelRequired": 55
+        "level": 7,
+        "minPlayerLevel": 55
     },
     {
-        "skillLevel": 8,
-        "minAccLevelRequired": 75
+        "level": 8,
+        "minPlayerLevel": 75
     },
     {
-        "skillLevel": 9,
-        "minAccLevelRequired": 95
+        "level": 9,
+        "minPlayerLevel": 95
     },
     {
-        "skillLevel": 10,
-        "minAccLevelRequired": 120
+        "level": 10,
+        "minPlayerLevel": 120
     }
 ]
