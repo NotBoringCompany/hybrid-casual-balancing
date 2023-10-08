@@ -1,0 +1,202 @@
+[
+    {
+        "weaponLevel": 1,
+        "minAccLevelRequired": 1
+    },
+    {
+        "weaponLevel": 2,
+        "minAccLevelRequired": 2
+    },
+    {
+        "weaponLevel": 3,
+        "minAccLevelRequired": 3
+    },
+    {
+        "weaponLevel": 4,
+        "minAccLevelRequired": 4
+    },
+    {
+        "weaponLevel": 5,
+        "minAccLevelRequired": 5
+    },
+    {
+        "weaponLevel": 6,
+        "minAccLevelRequired": 6
+    },
+    {
+        "weaponLevel": 7,
+        "minAccLevelRequired": 7
+    },
+    {
+        "weaponLevel": 8,
+        "minAccLevelRequired": 8
+    },
+    {
+        "weaponLevel": 9,
+        "minAccLevelRequired": 9
+    },
+    {
+        "weaponLevel": 10,
+        "minAccLevelRequired": 10
+    },
+    {
+        "weaponLevel": 11,
+        "minAccLevelRequired": 11
+    },
+    {
+        "weaponLevel": 12,
+        "minAccLevelRequired": 12
+    },
+    {
+        "weaponLevel": 13,
+        "minAccLevelRequired": 13
+    },
+    {
+        "weaponLevel": 14,
+        "minAccLevelRequired": 14
+    },
+    {
+        "weaponLevel": 15,
+        "minAccLevelRequired": 15
+    },
+    {
+        "weaponLevel": 16,
+        "minAccLevelRequired": 17
+    },
+    {
+        "weaponLevel": 17,
+        "minAccLevelRequired": 19
+    },
+    {
+        "weaponLevel": 18,
+        "minAccLevelRequired": 21
+    },
+    {
+        "weaponLevel": 19,
+        "minAccLevelRequired": 23
+    },
+    {
+        "weaponLevel": 20,
+        "minAccLevelRequired": 25
+    },
+    {
+        "weaponLevel": 21,
+        "minAccLevelRequired": 27
+    },
+    {
+        "weaponLevel": 22,
+        "minAccLevelRequired": 29
+    },
+    {
+        "weaponLevel": 23,
+        "minAccLevelRequired": 31
+    },
+    {
+        "weaponLevel": 24,
+        "minAccLevelRequired": 33
+    },
+    {
+        "weaponLevel": 25,
+        "minAccLevelRequired": 35
+    },
+    {
+        "weaponLevel": 26,
+        "minAccLevelRequired": 37
+    },
+    {
+        "weaponLevel": 27,
+        "minAccLevelRequired": 39
+    },
+    {
+        "weaponLevel": 28,
+        "minAccLevelRequired": 41
+    },
+    {
+        "weaponLevel": 29,
+        "minAccLevelRequired": 43
+    },
+    {
+        "weaponLevel": 30,
+        "minAccLevelRequired": 45
+    },
+    {
+        "weaponLevel": 31,
+        "minAccLevelRequired": 48
+    },
+    {
+        "weaponLevel": 32,
+        "minAccLevelRequired": 51
+    },
+    {
+        "weaponLevel": 33,
+        "minAccLevelRequired": 54
+    },
+    {
+        "weaponLevel": 34,
+        "minAccLevelRequired": 57
+    },
+    {
+        "weaponLevel": 35,
+        "minAccLevelRequired": 60
+    },
+    {
+        "weaponLevel": 36,
+        "minAccLevelRequired": 63
+    },
+    {
+        "weaponLevel": 37,
+        "minAccLevelRequired": 66
+    },
+    {
+        "weaponLevel": 38,
+        "minAccLevelRequired": 69
+    },
+    {
+        "weaponLevel": 39,
+        "minAccLevelRequired": 72
+    },
+    {
+        "weaponLevel": 40,
+        "minAccLevelRequired": 75
+    },
+    {
+        "weaponLevel": 41,
+        "minAccLevelRequired": 78
+    },
+    {
+        "weaponLevel": 42,
+        "minAccLevelRequired": 81
+    },
+    {
+        "weaponLevel": 43,
+        "minAccLevelRequired": 84
+    },
+    {
+        "weaponLevel": 44,
+        "minAccLevelRequired": 87
+    },
+    {
+        "weaponLevel": 45,
+        "minAccLevelRequired": 90
+    },
+    {
+        "weaponLevel": 46,
+        "minAccLevelRequired": 95
+    },
+    {
+        "weaponLevel": 47,
+        "minAccLevelRequired": 100
+    },
+    {
+        "weaponLevel": 48,
+        "minAccLevelRequired": 105
+    },
+    {
+        "weaponLevel": 49,
+        "minAccLevelRequired": 110
+    },
+    {
+        "weaponLevel": 50,
+        "minAccLevelRequired": 120
+    }
+]

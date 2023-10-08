@@ -1,0 +1,42 @@
+[
+    {
+        "skillLevel": 1,
+        "minAccLevelRequired": 1
+    },
+    {
+        "skillLevel": 2,
+        "minAccLevelRequired": 5
+    },
+    {
+        "skillLevel": 3,
+        "minAccLevelRequired": 10
+    },
+    {
+        "skillLevel": 4,
+        "minAccLevelRequired": 20
+    },
+    {
+        "skillLevel": 5,
+        "minAccLevelRequired": 30
+    },
+    {
+        "skillLevel": 6,
+        "minAccLevelRequired": 40
+    },
+    {
+        "skillLevel": 7,
+        "minAccLevelRequired": 55
+    },
+    {
+        "skillLevel": 8,
+        "minAccLevelRequired": 75
+    },
+    {
+        "skillLevel": 9,
+        "minAccLevelRequired": 95
+    },
+    {
+        "skillLevel": 10,
+        "minAccLevelRequired": 120
+    }
+]
