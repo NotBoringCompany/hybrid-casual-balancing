@@ -22,13 +22,24 @@ export const createSkillLevelRequirement = async (): Promise<void> => {
         }
     
         // create the JSON file
-        const outputPath = path.join(__dirname, '../../../mechanics/level-requirements')
+        const outputPath = path.join(__dirname, '../../../mechanics/level-requirements/skillLevelRequirement.json')
         fs.writeFileSync(outputPath, JSON.stringify(skillLevelRequirements, null, 4))
     
         console.log('Skill level requirement JSON file created!')
     } catch (err) {
         console.error('Error creating skill level requirement JSON file:', err)
     }
+}
+
+/**
+ * Gets the maximum skill level allowed for the player at a certain level.
+ * @param level the player's level
+ */
+export const getMaxSkillLevel = async (level: number): Promise<number> => {
+    const inputPath = fs.readFileSync(path.join(__dirname, '../../../mechanics/level-requirements/skillLevelRequirement.json')).toString('utf-8')
+    const skillLevelRequirement = JSON.parse(inputPath) as SkillLevelRequirement[]
+
+    return skillLevelRequirement.filter((requirement: SkillLevelRequirement) => requirement.minPlayerLevel <= level).pop()?.level
 }
 
 
