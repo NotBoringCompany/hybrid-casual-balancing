@@ -28,3 +28,15 @@ export const createWeaponLevelRequirement = async (): Promise<void> => {
         console.error('Error creating weapon level requirement JSON file:', err)
     }
 }
+
+/**
+ * Gets the maximum weapon level allowed for the player at a certain level.
+ * @param level the player's level
+ * @returns the maximum weapon level allowed for the player at a certain level
+ */
+export const getMaxWeaponLevel = (level: number): number => {
+    const inputPath = fs.readFileSync(path.join(__dirname, '../../../mechanics/level-requirements/weaponLevelRequirement.json')).toString('utf-8')
+    const weaponLevelRequirement = JSON.parse(inputPath) as WeaponLevelRequirement[]
+
+    return weaponLevelRequirement.filter((requirement: WeaponLevelRequirement) => requirement.minPlayerLevel <= level).pop()?.level
+}

@@ -35,7 +35,7 @@ export const createSkillLevelRequirement = async (): Promise<void> => {
  * Gets the maximum skill level allowed for the player at a certain level.
  * @param level the player's level
  */
-export const getMaxSkillLevel = async (level: number): Promise<number> => {
+export const getMaxSkillLevel = (level: number): number => {
     const inputPath = fs.readFileSync(path.join(__dirname, '../../../mechanics/level-requirements/skillLevelRequirement.json')).toString('utf-8')
     const skillLevelRequirement = JSON.parse(inputPath) as SkillLevelRequirement[]
 
