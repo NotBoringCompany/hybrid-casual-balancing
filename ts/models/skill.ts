@@ -28,7 +28,7 @@ export interface EnemySkill {
 export interface EnemySkillLevelMechanics {
     // the skill level
     level: number,
-    // the skill's duration in seconds
+    // the skill's duration in seconds (only applies if there is a status effect with a duration), else 0
     duration: number,
     // the skill's modifier
     modifier: SkillModifier,
