@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Ignite",
+        "description": "Inflicts Burn on an enemy for a period of time.",
+        "types": [
+            "Status Effect"
+        ],
+        "targetMechanics": {
+            "type": "Enemy",
+            "count": 1
+        },
+        "statusEffects": [
+            "Burn"
+        ]
+    },
+    {
+        "name": "Chain Reaction",
+        "description": "Damages an enemy and jumps to two subsequent nearby enemies.",
+        "types": [
+            "Set Damage"
+        ],
+        "targetMechanics": {
+            "type": "Enemy",
+            "count": 3
+        },
+        "statusEffects": [
+            "None"
+        ]
+    },
+    {
+        "name": "Stun",
+        "description": "Inflicts Stun on an enemy for a period of time.",
+        "types": [
+            "Status Effect"
+        ],
+        "targetMechanics": {
+            "type": "Enemy",
+            "count": 1
+        },
+        "statusEffects": [
+            "Stun"
+        ]
+    },
+    {
+        "name": "Toxic Cloud",
+        "description": "Inflicts Toxic on all enemies around a radius for a period of time.",
+        "types": [
+            "Status Effect"
+        ],
+        "targetMechanics": {
+            "type": "Radius",
+            "count": 0
+        },
+        "statusEffects": [
+            "Toxic"
+        ]
+    },
+    {
+        "name": "Blinding Light",
+        "description": "Inflicts Blind on an enemy for a period of time.",
+        "types": [
+            "Status Effect"
+        ],
+        "targetMechanics": {
+            "type": "Enemy",
+            "count": 1
+        },
+        "statusEffects": [
+            "Blind"
+        ]
+    },
+    {
+        "name": "Ground Smash",
+        "description": "Damages all enemies around a radius and inflicts Stun on them for a period of time.",
+        "types": [
+            "Enemy HP Damage",
+            "Status Effect"
+        ],
+        "targetMechanics": {
+            "type": "Radius",
+            "count": 0
+        },
+        "statusEffects": [
+            "Stun"
+        ]
+    }
+]
