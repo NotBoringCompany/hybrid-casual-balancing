@@ -5,18 +5,17 @@ import { Attribute } from '../../../models/attribute'
 import { Enemy, EnemyLevelMechanics } from '../../../models/enemy'
 import { RangeType } from '../../../models/range'
 import { EnemySkill, SkillModifierType } from '../../../models/skill'
+import { MAX_ENEMY_LEVEL } from './enemy'
 
-// trufo's max player reachable
-const MAX_TRUFO_LEVEL = 150
-// trufo's base hp increment per level is constant
-const TRUFO_BASE_HP_INCREMENT_PER_LEVEL = 20
-// trufo's base hp regen multiplier * base hp = base hp regen
-const TRUFO_BASE_HP_REGEN_MULTIPLIER = 0.005
+// trufo's base HP at level 1
+const TRUFO_BASE_HP = 100
+// trufo's base HP regen at level 1
+const TRUFO_BASE_HP_REGEN = 0.5
 // trufo's base movement speed per level is constant
 const TRUFO_BASE_MOVEMENT_SPEED = 125
-// trufo's base damage increment per level is constant
-const TRUFO_BASE_DAMAGE_INCREMENT_PER_LEVEL = 3
-// because trufo is melee, its base projectile velocity is 0
+// trufo's base damage at level 1
+const TRUFO_BASE_DAMAGE = 8
+// trufo's base projectile velocity is 0 (because trufo is a melee enemy)
 const TRUFO_BASE_PROJECTILE_VELOCITY = 0
 // trufo's base attack range is constant
 const TRUFO_BASE_ATTACK_RANGE = 100
@@ -24,6 +23,13 @@ const TRUFO_BASE_ATTACK_RANGE = 100
 const TRUFO_BASE_ATTACK_TIME = 1.5
 // trufo's base crit chance is constant
 const TRUFO_BASE_CRIT_CHANCE = 0.05
+
+// trufo's increase in base HP per level
+const TRUFO_BASE_HP_INCREMENT_PER_LEVEL = 20
+// trufo's base hp regen multiplier * base hp = base hp regen
+const TRUFO_BASE_HP_REGEN_MULTIPLIER = 0.005
+// trufo's increase in base damage per level
+const TRUFO_BASE_DAMAGE_INCREMENT_PER_LEVEL = 3
 
 /**
  * Gets Trufo's base skill and return an EnemySkill instance.
@@ -62,13 +68,13 @@ const getTrufoBaseSkill = (level: number): EnemySkill => {
  */
 const trufoBaseStats: EnemyLevelMechanics = {
     level: 1,
-    baseHp: 100,
-    baseHpRegen: 0.5,
-    baseMovementSpeed: 125,
-    baseDamage: 8,
-    baseProjectileVelocity: 0,
-    baseAttackRange: 100,
-    baseAttackTime: 1.5,
+    baseHp: TRUFO_BASE_HP,
+    baseHpRegen: TRUFO_BASE_HP_REGEN,
+    baseMovementSpeed: TRUFO_BASE_MOVEMENT_SPEED,
+    baseDamage: TRUFO_BASE_DAMAGE,
+    baseProjectileVelocity: TRUFO_BASE_PROJECTILE_VELOCITY,
+    baseAttackRange: TRUFO_BASE_ATTACK_RANGE,
+    baseAttackTime: TRUFO_BASE_ATTACK_TIME,
     critChance: 0.05,
     skill: getTrufoBaseSkill(1),
 }
@@ -79,16 +85,14 @@ const trufoBaseStats: EnemyLevelMechanics = {
 const createTrufoData = (): void => {
     const trufoLevelMechanics: EnemyLevelMechanics[] = [trufoBaseStats]
 
-    for (let i = 2; i <= MAX_TRUFO_LEVEL; i++) {
-        // the current level
-        const level = i
+    for (let i = 2; i <= MAX_ENEMY_LEVEL; i++) {
         // take the previous level's base HP and add the increment
         const baseHp = trufoLevelMechanics[i - 2].baseHp + TRUFO_BASE_HP_INCREMENT_PER_LEVEL
         // multiply the base HP by the multiplier to get the base HP regen
         const baseHpRegen = parseFloat((baseHp * TRUFO_BASE_HP_REGEN_MULTIPLIER).toFixed(2))
 
         const currentLevelMechanics: EnemyLevelMechanics = {
-            level,
+            level: i,
             baseHp,
             baseHpRegen,
             baseMovementSpeed: TRUFO_BASE_MOVEMENT_SPEED,
@@ -97,7 +101,7 @@ const createTrufoData = (): void => {
             baseAttackRange: TRUFO_BASE_ATTACK_RANGE,
             baseAttackTime: TRUFO_BASE_ATTACK_TIME,
             critChance: TRUFO_BASE_CRIT_CHANCE,
-            skill: getTrufoBaseSkill(level),
+            skill: getTrufoBaseSkill(i),
         }
 
         trufoLevelMechanics.push(currentLevelMechanics)
