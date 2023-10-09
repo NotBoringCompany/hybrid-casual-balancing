@@ -2,7 +2,9 @@
  * Represents the target mechanics of an attribute.
  */
 export interface TargetMechanics {
+    // the target type of the attribute
     type: TargetType,
+    // the number of targets that can be affected by this attribute
     count: number,
 }
 

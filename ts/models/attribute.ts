@@ -18,8 +18,8 @@ export interface Attribute {
     rangeType: RangeType,
     // the target mechanics of the attribute
     targetMechanics: TargetMechanics,
-    // only if status effect is present in `type`
-    statusEffect?: StatusEffect,
+    // the status effect inflicted by the attribute (if any)
+    statusEffect: StatusEffect,
     // the modifier of the attribute. this is usually the damage/healing amount
     modifier: number,
     // the duration of the attribute in seconds

@@ -6,4 +6,5 @@ export enum StatusEffect {
     Bleed,
     Stun,
     Blind,
+    None,
 }
