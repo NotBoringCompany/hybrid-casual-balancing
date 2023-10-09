@@ -22,20 +22,6 @@ export interface Attribute {
     statusEffects: StatusEffect[],
 }
 
-// /**
-//  * Represents the fields of an attribute that may change in every level. 
-//  * 
-//  * Regardless if they change or not, they will be under this interface.
-//  */
-// export interface AttributeLevelMechanics {
-//     // the attribute's level (often in conjunction with the skill or weapon's level)
-//     level: number,
-//     modifier: number,
-//     duration: number,
-//     chance: number,
-//     radius: number,
-// }
-
 /**
  * Lists all current attribute types.
  */

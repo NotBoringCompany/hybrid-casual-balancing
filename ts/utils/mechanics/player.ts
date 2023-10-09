@@ -35,7 +35,6 @@ const calculatePlayerLevelMechanics = (): PlayerLevelMechanics[] => {
     // the first level is always `basePlayerStats`
     const playerLevelMechanics: PlayerLevelMechanics[] = [basePlayerStats]
 
-    // current
     for (let i = 2; i <= MAX_PLAYER_LEVEL; i++) {
         // take the previous level's base HP and add the increment
         const baseHp = playerLevelMechanics[i - 2].baseHp + BASE_HP_INCREMENT_PER_LEVEL
