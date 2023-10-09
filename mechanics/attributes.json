@@ -83,5 +83,19 @@
         "statusEffects": [
             "Stun"
         ]
+    },
+    {
+        "name": "Basic Laceration",
+        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+        "types": [
+            "Status Effect"
+        ],
+        "targetMechanics": {
+            "type": "Enemy",
+            "count": 1
+        },
+        "statusEffects": [
+            "Bleed"
+        ]
     }
 ]

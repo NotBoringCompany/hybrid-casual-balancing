@@ -23,7 +23,7 @@ export interface EnemySkill {
 }
 
 /**
- * Represents an enemy's skill mechanic level by level.
+ * Represents an enemy's skill data level by level.
  */
 export interface EnemySkillLevelMechanics {
     // the skill level
