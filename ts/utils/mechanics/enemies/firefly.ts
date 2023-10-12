@@ -2,7 +2,7 @@ import path from 'path'
 import fs from 'fs'
 import { EnemySkill, SkillModifierType } from '../../../models/skill'
 import { Attribute } from '../../../models/attribute'
-import { Enemy, EnemyLevelMechanics } from '../../../models/enemy'
+import { Enemy, EnemyLevelMechanics, KillRewards } from '../../../models/enemy'
 import { RangeType } from '../../../models/range'
 import { MAX_ENEMY_LEVEL } from './enemy'
 
@@ -63,6 +63,19 @@ const getFireflyBaseSkill = (level: number): EnemySkill => {
 }
 
 /**
+ * Gets Firefly's kill rewards for this level and return a DefeatRewards instance.
+ */
+const getFireflyKillRewards = (level: number): KillRewards => {
+    const coins = Math.floor((level / 1.75) + 3)
+    const xp = Math.floor((level * 2.2) + 5)
+
+    return {
+        coins,
+        xp
+    }
+}
+
+/**
  * Creates the base stats for Firefly.
  */
 const fireflyBaseStats: EnemyLevelMechanics = {
@@ -76,6 +89,7 @@ const fireflyBaseStats: EnemyLevelMechanics = {
     baseAttackTime: FIREFLY_BASE_ATTACK_TIME,
     critChance: FIREFLY_BASE_CRIT_CHANCE,
     skill: getFireflyBaseSkill(1),
+    killRewards: getFireflyKillRewards(1),
 }
 
 /**
@@ -103,6 +117,7 @@ const createFireflyData = (): void => {
             baseAttackTime: FIREFLY_BASE_ATTACK_TIME,
             critChance: FIREFLY_BASE_CRIT_CHANCE,
             skill: getFireflyBaseSkill(i),
+            killRewards: getFireflyKillRewards(i),
         }
 
         fireflyLevelMechanics.push(currentLevelMechanics)

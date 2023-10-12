@@ -2,7 +2,7 @@ import path from 'path'
 import fs from 'fs'
 
 import { Attribute } from '../../../models/attribute'
-import { Enemy, EnemyLevelMechanics } from '../../../models/enemy'
+import { Enemy, EnemyLevelMechanics, KillRewards } from '../../../models/enemy'
 import { RangeType } from '../../../models/range'
 import { EnemySkill, SkillModifierType } from '../../../models/skill'
 import { MAX_ENEMY_LEVEL } from './enemy'
@@ -64,6 +64,19 @@ const getTrufoBaseSkill = (level: number): EnemySkill => {
 }
 
 /**
+ * Gets Trufo's kill rewards for this level and return a DefeatRewards instance.
+ */
+const getTrufoKillRewards = (level: number): KillRewards => {
+    const coins = Math.floor((level / 2) + 2)
+    const xp = Math.floor((level * 2) + 8)
+
+    return {
+        coins,
+        xp
+    }
+}
+
+/**
  * Creates the base stats for Trufo.
  */
 const trufoBaseStats: EnemyLevelMechanics = {
@@ -77,7 +90,9 @@ const trufoBaseStats: EnemyLevelMechanics = {
     baseAttackTime: TRUFO_BASE_ATTACK_TIME,
     critChance: 0.05,
     skill: getTrufoBaseSkill(1),
+    killRewards: getTrufoKillRewards(1),
 }
+
 
 /**
  * Creates Trufo's data for all levels and stores it as a JSON file.
@@ -102,6 +117,7 @@ const createTrufoData = (): void => {
             baseAttackTime: TRUFO_BASE_ATTACK_TIME,
             critChance: TRUFO_BASE_CRIT_CHANCE,
             skill: getTrufoBaseSkill(i),
+            killRewards: getTrufoKillRewards(i),
         }
 
         trufoLevelMechanics.push(currentLevelMechanics)

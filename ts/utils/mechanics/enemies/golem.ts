@@ -3,7 +3,7 @@ import fs from 'fs'
 
 import { Attribute } from '../../../models/attribute'
 import { EnemySkill, SkillModifierType } from '../../../models/skill'
-import { Enemy, EnemyLevelMechanics } from '../../../models/enemy'
+import { Enemy, EnemyLevelMechanics, KillRewards } from '../../../models/enemy'
 import { MAX_ENEMY_LEVEL } from './enemy'
 import { RangeType } from '../../../models/range'
 
@@ -66,6 +66,19 @@ const getGolemBaseSkill = (level: number): EnemySkill => {
 }
 
 /**
+ * Gets Golem's kill rewards for this level and return a DefeatRewards instance.
+ */
+const getGolemKillRewards = (level: number): KillRewards => {
+    const coins = Math.floor((level / 1.5) + 5)
+    const xp = Math.floor((level * 4) + 25)
+
+    return {
+        coins,
+        xp
+    }
+}
+
+/**
  * Creates the base stats for Golem.
  */
 const golemBaseStats: EnemyLevelMechanics = {
@@ -79,6 +92,7 @@ const golemBaseStats: EnemyLevelMechanics = {
     baseAttackTime: GOLEM_BASE_ATTACK_TIME,
     critChance: GOLEM_BASE_CRIT_CHANCE,
     skill: getGolemBaseSkill(1),
+    killRewards: getGolemKillRewards(1),
 }
 
 /**
@@ -106,6 +120,7 @@ const createGolemData = (): void => {
             baseAttackTime: GOLEM_BASE_ATTACK_TIME,
             critChance: GOLEM_BASE_CRIT_CHANCE,
             skill: getGolemBaseSkill(i),
+            killRewards: getGolemKillRewards(i),
         }
 
         golemLevelMechanics.push(currentLevelMechanics)

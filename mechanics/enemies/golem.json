@@ -44,6 +44,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 5,
+                "xp": 29
             }
         },
         {
@@ -87,6 +91,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 6,
+                "xp": 33
             }
         },
         {
@@ -130,6 +138,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 7,
+                "xp": 37
             }
         },
         {
@@ -173,6 +185,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 7,
+                "xp": 41
             }
         },
         {
@@ -216,6 +232,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 8,
+                "xp": 45
             }
         },
         {
@@ -259,6 +279,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 9,
+                "xp": 49
             }
         },
         {
@@ -302,6 +326,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 9,
+                "xp": 53
             }
         },
         {
@@ -345,6 +373,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 10,
+                "xp": 57
             }
         },
         {
@@ -388,6 +420,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 11,
+                "xp": 61
             }
         },
         {
@@ -431,6 +467,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 11,
+                "xp": 65
             }
         },
         {
@@ -474,6 +514,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 12,
+                "xp": 69
             }
         },
         {
@@ -517,6 +561,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 13,
+                "xp": 73
             }
         },
         {
@@ -560,6 +608,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 13,
+                "xp": 77
             }
         },
         {
@@ -603,6 +655,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 14,
+                "xp": 81
             }
         },
         {
@@ -646,6 +702,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 15,
+                "xp": 85
             }
         },
         {
@@ -689,6 +749,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 15,
+                "xp": 89
             }
         },
         {
@@ -732,6 +796,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 16,
+                "xp": 93
             }
         },
         {
@@ -775,6 +843,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 17,
+                "xp": 97
             }
         },
         {
@@ -818,6 +890,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 17,
+                "xp": 101
             }
         },
         {
@@ -861,6 +937,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 18,
+                "xp": 105
             }
         },
         {
@@ -904,6 +984,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 19,
+                "xp": 109
             }
         },
         {
@@ -947,6 +1031,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 19,
+                "xp": 113
             }
         },
         {
@@ -990,6 +1078,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 20,
+                "xp": 117
             }
         },
         {
@@ -1033,6 +1125,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 21,
+                "xp": 121
             }
         },
         {
@@ -1076,6 +1172,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 21,
+                "xp": 125
             }
         },
         {
@@ -1119,6 +1219,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 22,
+                "xp": 129
             }
         },
         {
@@ -1162,6 +1266,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 23,
+                "xp": 133
             }
         },
         {
@@ -1205,6 +1313,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 23,
+                "xp": 137
             }
         },
         {
@@ -1248,6 +1360,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 24,
+                "xp": 141
             }
         },
         {
@@ -1291,6 +1407,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 25,
+                "xp": 145
             }
         },
         {
@@ -1334,6 +1454,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 25,
+                "xp": 149
             }
         },
         {
@@ -1377,6 +1501,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 26,
+                "xp": 153
             }
         },
         {
@@ -1420,6 +1548,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 27,
+                "xp": 157
             }
         },
         {
@@ -1463,6 +1595,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 27,
+                "xp": 161
             }
         },
         {
@@ -1506,6 +1642,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 28,
+                "xp": 165
             }
         },
         {
@@ -1549,6 +1689,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 29,
+                "xp": 169
             }
         },
         {
@@ -1592,6 +1736,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 29,
+                "xp": 173
             }
         },
         {
@@ -1635,6 +1783,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 30,
+                "xp": 177
             }
         },
         {
@@ -1678,6 +1830,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 31,
+                "xp": 181
             }
         },
         {
@@ -1721,6 +1877,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 31,
+                "xp": 185
             }
         },
         {
@@ -1764,6 +1924,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 32,
+                "xp": 189
             }
         },
         {
@@ -1807,6 +1971,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 33,
+                "xp": 193
             }
         },
         {
@@ -1850,6 +2018,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 33,
+                "xp": 197
             }
         },
         {
@@ -1893,6 +2065,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 34,
+                "xp": 201
             }
         },
         {
@@ -1936,6 +2112,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 35,
+                "xp": 205
             }
         },
         {
@@ -1979,6 +2159,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 35,
+                "xp": 209
             }
         },
         {
@@ -2022,6 +2206,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 36,
+                "xp": 213
             }
         },
         {
@@ -2065,6 +2253,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 37,
+                "xp": 217
             }
         },
         {
@@ -2108,6 +2300,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 37,
+                "xp": 221
             }
         },
         {
@@ -2151,6 +2347,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 38,
+                "xp": 225
             }
         },
         {
@@ -2194,6 +2394,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 39,
+                "xp": 229
             }
         },
         {
@@ -2237,6 +2441,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 39,
+                "xp": 233
             }
         },
         {
@@ -2280,6 +2488,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 40,
+                "xp": 237
             }
         },
         {
@@ -2323,6 +2535,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 41,
+                "xp": 241
             }
         },
         {
@@ -2366,6 +2582,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 41,
+                "xp": 245
             }
         },
         {
@@ -2409,6 +2629,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 42,
+                "xp": 249
             }
         },
         {
@@ -2452,6 +2676,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 43,
+                "xp": 253
             }
         },
         {
@@ -2495,6 +2723,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 43,
+                "xp": 257
             }
         },
         {
@@ -2538,6 +2770,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 44,
+                "xp": 261
             }
         },
         {
@@ -2581,6 +2817,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 45,
+                "xp": 265
             }
         },
         {
@@ -2624,6 +2864,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 45,
+                "xp": 269
             }
         },
         {
@@ -2667,6 +2911,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 46,
+                "xp": 273
             }
         },
         {
@@ -2710,6 +2958,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 47,
+                "xp": 277
             }
         },
         {
@@ -2753,6 +3005,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 47,
+                "xp": 281
             }
         },
         {
@@ -2796,6 +3052,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 48,
+                "xp": 285
             }
         },
         {
@@ -2839,6 +3099,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 49,
+                "xp": 289
             }
         },
         {
@@ -2882,6 +3146,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 49,
+                "xp": 293
             }
         },
         {
@@ -2925,6 +3193,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 50,
+                "xp": 297
             }
         },
         {
@@ -2968,6 +3240,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 51,
+                "xp": 301
             }
         },
         {
@@ -3011,6 +3287,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 51,
+                "xp": 305
             }
         },
         {
@@ -3054,6 +3334,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 52,
+                "xp": 309
             }
         },
         {
@@ -3097,6 +3381,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 53,
+                "xp": 313
             }
         },
         {
@@ -3140,6 +3428,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 53,
+                "xp": 317
             }
         },
         {
@@ -3183,6 +3475,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 54,
+                "xp": 321
             }
         },
         {
@@ -3226,6 +3522,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 55,
+                "xp": 325
             }
         },
         {
@@ -3269,6 +3569,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 55,
+                "xp": 329
             }
         },
         {
@@ -3312,6 +3616,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 56,
+                "xp": 333
             }
         },
         {
@@ -3355,6 +3663,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 57,
+                "xp": 337
             }
         },
         {
@@ -3398,6 +3710,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 57,
+                "xp": 341
             }
         },
         {
@@ -3441,6 +3757,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 58,
+                "xp": 345
             }
         },
         {
@@ -3484,6 +3804,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 59,
+                "xp": 349
             }
         },
         {
@@ -3527,6 +3851,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 59,
+                "xp": 353
             }
         },
         {
@@ -3570,6 +3898,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 60,
+                "xp": 357
             }
         },
         {
@@ -3613,6 +3945,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 61,
+                "xp": 361
             }
         },
         {
@@ -3656,6 +3992,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 61,
+                "xp": 365
             }
         },
         {
@@ -3699,6 +4039,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 62,
+                "xp": 369
             }
         },
         {
@@ -3742,6 +4086,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 63,
+                "xp": 373
             }
         },
         {
@@ -3785,6 +4133,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 63,
+                "xp": 377
             }
         },
         {
@@ -3828,6 +4180,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 64,
+                "xp": 381
             }
         },
         {
@@ -3871,6 +4227,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 65,
+                "xp": 385
             }
         },
         {
@@ -3914,6 +4274,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 65,
+                "xp": 389
             }
         },
         {
@@ -3957,6 +4321,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 66,
+                "xp": 393
             }
         },
         {
@@ -4000,6 +4368,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 67,
+                "xp": 397
             }
         },
         {
@@ -4043,6 +4415,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 67,
+                "xp": 401
             }
         },
         {
@@ -4086,6 +4462,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 68,
+                "xp": 405
             }
         },
         {
@@ -4129,6 +4509,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 69,
+                "xp": 409
             }
         },
         {
@@ -4172,6 +4556,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 69,
+                "xp": 413
             }
         },
         {
@@ -4215,6 +4603,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 70,
+                "xp": 417
             }
         },
         {
@@ -4258,6 +4650,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 71,
+                "xp": 421
             }
         },
         {
@@ -4301,6 +4697,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 71,
+                "xp": 425
             }
         },
         {
@@ -4344,6 +4744,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 72,
+                "xp": 429
             }
         },
         {
@@ -4387,6 +4791,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 73,
+                "xp": 433
             }
         },
         {
@@ -4430,6 +4838,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 73,
+                "xp": 437
             }
         },
         {
@@ -4473,6 +4885,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 74,
+                "xp": 441
             }
         },
         {
@@ -4516,6 +4932,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 75,
+                "xp": 445
             }
         },
         {
@@ -4559,6 +4979,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 75,
+                "xp": 449
             }
         },
         {
@@ -4602,6 +5026,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 76,
+                "xp": 453
             }
         },
         {
@@ -4645,6 +5073,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 77,
+                "xp": 457
             }
         },
         {
@@ -4688,6 +5120,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 77,
+                "xp": 461
             }
         },
         {
@@ -4731,6 +5167,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 78,
+                "xp": 465
             }
         },
         {
@@ -4774,6 +5214,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 79,
+                "xp": 469
             }
         },
         {
@@ -4817,6 +5261,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 79,
+                "xp": 473
             }
         },
         {
@@ -4860,6 +5308,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 80,
+                "xp": 477
             }
         },
         {
@@ -4903,6 +5355,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 81,
+                "xp": 481
             }
         },
         {
@@ -4946,6 +5402,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 81,
+                "xp": 485
             }
         },
         {
@@ -4989,6 +5449,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 82,
+                "xp": 489
             }
         },
         {
@@ -5032,6 +5496,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 83,
+                "xp": 493
             }
         },
         {
@@ -5075,6 +5543,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 83,
+                "xp": 497
             }
         },
         {
@@ -5118,6 +5590,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 84,
+                "xp": 501
             }
         },
         {
@@ -5161,6 +5637,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 85,
+                "xp": 505
             }
         },
         {
@@ -5204,6 +5684,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 85,
+                "xp": 509
             }
         },
         {
@@ -5247,6 +5731,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 86,
+                "xp": 513
             }
         },
         {
@@ -5290,6 +5778,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 87,
+                "xp": 517
             }
         },
         {
@@ -5333,6 +5825,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 87,
+                "xp": 521
             }
         },
         {
@@ -5376,6 +5872,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 88,
+                "xp": 525
             }
         },
         {
@@ -5419,6 +5919,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 89,
+                "xp": 529
             }
         },
         {
@@ -5462,6 +5966,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 89,
+                "xp": 533
             }
         },
         {
@@ -5505,6 +6013,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 90,
+                "xp": 537
             }
         },
         {
@@ -5548,6 +6060,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 91,
+                "xp": 541
             }
         },
         {
@@ -5591,6 +6107,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 91,
+                "xp": 545
             }
         },
         {
@@ -5634,6 +6154,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 92,
+                "xp": 549
             }
         },
         {
@@ -5677,6 +6201,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 93,
+                "xp": 553
             }
         },
         {
@@ -5720,6 +6248,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 93,
+                "xp": 557
             }
         },
         {
@@ -5763,6 +6295,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 94,
+                "xp": 561
             }
         },
         {
@@ -5806,6 +6342,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 95,
+                "xp": 565
             }
         },
         {
@@ -5849,6 +6389,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 95,
+                "xp": 569
             }
         },
         {
@@ -5892,6 +6436,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 96,
+                "xp": 573
             }
         },
         {
@@ -5935,6 +6483,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 97,
+                "xp": 577
             }
         },
         {
@@ -5978,6 +6530,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 97,
+                "xp": 581
             }
         },
         {
@@ -6021,6 +6577,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 98,
+                "xp": 585
             }
         },
         {
@@ -6064,6 +6624,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 99,
+                "xp": 589
             }
         },
         {
@@ -6107,6 +6671,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 99,
+                "xp": 593
             }
         },
         {
@@ -6150,6 +6718,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 100,
+                "xp": 597
             }
         },
         {
@@ -6193,6 +6765,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 101,
+                "xp": 601
             }
         },
         {
@@ -6236,6 +6812,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 101,
+                "xp": 605
             }
         },
         {
@@ -6279,6 +6859,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 102,
+                "xp": 609
             }
         },
         {
@@ -6322,6 +6906,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 103,
+                "xp": 613
             }
         },
         {
@@ -6365,6 +6953,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 103,
+                "xp": 617
             }
         },
         {
@@ -6408,6 +7000,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 104,
+                "xp": 621
             }
         },
         {
@@ -6451,6 +7047,10 @@
                         "radius": 500
                     }
                 ]
+            },
+            "killRewards": {
+                "coins": 105,
+                "xp": 625
             }
         }
     ]

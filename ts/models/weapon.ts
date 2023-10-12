@@ -19,8 +19,35 @@ export interface Weapon {
     name: string,
     // the weapon's description
     description: string,
+    // the rarity of the weapon
+    rarity: WeaponRarity,
     // the weapon's attribute (i.e. characteristics)
     levelMechanics: WeaponLevelMechanics[],
+}
+
+/**
+ * Lists all current weapon rarities.
+ */
+export enum WeaponRarity {
+    Common,
+    Uncommon,
+    Rare,
+    Epic,
+    Legendary
+}
+
+/**
+ * Represents an instance of a weapon's attribute
+ */
+export interface WeaponAttribute {
+    // the weapon's attribute
+    attribute: Attribute,
+    // the chance for the attribute to play out
+    chance: number,
+    // the weapon's attribute modifier
+    modifier: WeaponAttributeModifier,
+    // the radius of effect of the weapon's attribute
+    radius: number,
 }
 
 /**
@@ -38,7 +65,24 @@ export interface WeaponLevelMechanics {
     // the weapon's crit chance at this level
     critChance: number,
     // the weapon's attributes at this level
-    attributes: Attribute[],
+    attributes: WeaponAttribute[],
     // the weapon's upgrade cost at this level
     upgradeCost: UpgradeCost,
+}
+
+/**
+ * Represents a weapon's attribute modifier.
+ */
+export interface WeaponAttributeModifier {
+    type: WeaponAttributeModifierType,
+    value: number,
+
+}
+
+/**
+ * Lists all current weapon attribute modifier types.
+ */
+export enum WeaponAttributeModifierType {
+    Percentage = 'Percentage',
+    Number = 'Number',
 }

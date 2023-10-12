@@ -41,4 +41,16 @@ export interface EnemyLevelMechanics {
     critChance: number,
     // the enemy's skill data at this level
     skill: EnemySkill,
+    // the enemy's kill rewards at this level
+    killRewards: KillRewards,
+}
+
+/**
+ * Represents the rewards for defeating an enemy.
+ */
+export interface KillRewards {
+    // the amount of coins the player gets for defeating this enemy
+    coins: number,
+    // the amount of experience the player gets for defeating this enemy
+    xp: number
 }

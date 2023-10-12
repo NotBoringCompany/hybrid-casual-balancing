@@ -1,7 +1,7 @@
-import { loadSheet } from '../../configs/sheets'
+import { loadSheet } from '../../../configs/sheets'
 import fs from 'fs'
 import path from 'path'
-import { WeaponLevelRequirement } from '../../models/weapon'
+import { WeaponLevelRequirement } from '../../../models/weapon'
 
 /**
  * Creates a new weapon level requirement JSON file with the intended mechanics (gathered from Google Sheets).

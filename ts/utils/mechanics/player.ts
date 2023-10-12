@@ -2,7 +2,7 @@ import path from 'path'
 import fs from 'fs'
 import { PlayerLevelMechanics } from '../../models/player'
 import { getMaxSkillLevel } from './skill'
-import { getMaxWeaponLevel } from './weapon'
+import { getMaxWeaponLevel } from './weapons/weapon'
 
 // the maximum level a player can reach
 const MAX_PLAYER_LEVEL = 150
