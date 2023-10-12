@@ -1,5 +1,5 @@
 import { Attribute } from './attribute'
-import { UpgradeCost } from './upgrade'
+import { UpgradeCost } from './upgradeCost';
 
 /**
  * Shows the minimum level required for the player to level up their weapon to a certain level.
@@ -29,11 +29,11 @@ export interface Weapon {
  * Lists all current weapon rarities.
  */
 export enum WeaponRarity {
-    Common,
-    Uncommon,
-    Rare,
-    Epic,
-    Legendary
+    Common = 'Common',
+    Uncommon = 'Uncommon',
+    Rare = 'Rare',
+    Epic = 'Epic',
+    Legendary = 'Legendary'
 }
 
 /**

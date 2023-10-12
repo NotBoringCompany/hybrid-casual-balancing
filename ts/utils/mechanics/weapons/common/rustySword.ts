@@ -3,7 +3,10 @@ import fs from 'fs'
 
 import { Attribute } from '../../../../models/attribute'
 import { RangeType } from '../../../../models/range'
-import { WeaponAttribute, WeaponAttributeModifierType, WeaponLevelMechanics } from '../../../../models/weapon'
+import { Weapon, WeaponAttribute, WeaponAttributeModifierType, WeaponLevelMechanics, WeaponRarity } from '../../../../models/weapon'
+import { UpgradeCost } from '../../../../models/upgradeCost'
+import { Resource } from '../../../../models/resource'
+import { MAX_WEAPON_LEVEL } from '../weapon'
 
 // each level range corresponds to a specific damage increment and base attack time per level for a common rusty sword
 const COMMON_RUSTY_SWORD_LEVEL_RANGE = [
@@ -57,6 +60,87 @@ const getCommonRustySwordAttribute = (): WeaponAttribute => {
 }
 
 /**
+ * Gets Common Rusty Sword's upgrade cost for a specific level and return an UpgradeCost instance.
+ */
+const getCommonRustySwordUpgradeCost = (level: number): UpgradeCost => {
+    // the coins required
+    const coins = Math.floor(Math.pow(level, 2.25) + (level * 3))
+
+    // if level 1 - 14
+    if ((level >= 1 && level <= 14) || (level >= 15 && level <= 29)) {
+        return {
+            coins,
+            energyCores: 0,
+            resources: null,
+        }
+    }
+
+    // if level is 15 - 29, return:
+    if (level >= 15 && level <= 29) {
+        return {
+            coins,
+            energyCores: 1,
+            resources: null,
+        }
+    }
+
+    // if level is 30 - 39, return:
+    if (level >= 30 && level <= 39) {
+        return {
+            coins,
+            energyCores: 1,
+            resources: [
+                { type: Resource.Wood, amount: 5 },
+                { type: Resource.Stone, amount: 5 },
+                { type: Resource.Coal, amount: 5 }
+            ]
+        }
+    }
+
+    // if level is 40 - 45, return:
+    if (level >= 40 && level <= 45) {
+        return {
+            coins,
+            energyCores: 2,
+            resources: [
+                { type: Resource.Wood, amount: 15 },
+                { type: Resource.Stone, amount: 15 },
+                { type: Resource.Coal, amount: 10 }
+            ]
+        }
+    }
+
+    // if level is 46 - 49, return:
+    if (level >= 46 && level <= 49) {
+        return {
+            coins,
+            energyCores: 3,
+            resources: [
+                { type: Resource.Wood, amount: 35 },
+                { type: Resource.Stone, amount: 15 },
+                { type: Resource.Coal, amount: 10 }
+            ]
+        }
+    }
+
+    // if level is 50, return:
+    if (level === 50) {
+        return {
+            coins,
+            energyCores: 3,
+            resources: [
+                { type: Resource.Wood, amount: 65 },
+                { type: Resource.Stone, amount: 40 },
+                { type: Resource.Coal, amount: 30 }
+            ]
+        }
+    }
+
+    // otherwise, throw an error because the level is invalid
+    throw new Error(`Invalid level ${level} for Common Rusty Sword.`)
+}
+
+/**
  * Creates the base stats for Common Rusty Sword.
  */
 const commonRustySwordBaseStats: WeaponLevelMechanics = {
@@ -66,7 +150,7 @@ const commonRustySwordBaseStats: WeaponLevelMechanics = {
     baseAttackTime: COMMON_RUSTY_SWORD_LEVEL_RANGE.find((range) => 1 >= range.fromLevel && 1 <= range.toLevel).baseAttackTime,
     critChance: COMMON_RUSTY_SWORD_CRIT_CHANCE,
     attributes: [getCommonRustySwordAttribute()],
-    upgradeCost: 
+    upgradeCost: getCommonRustySwordUpgradeCost(1)
 
 }
 
@@ -74,7 +158,50 @@ const commonRustySwordBaseStats: WeaponLevelMechanics = {
  * Gets Common Rusty Sword's level mechanics and returns it as an array of WeaponLevelMechanics instances.
  */
 const getCommonRustySwordLevelMechanics = (): WeaponLevelMechanics[] => {
+    const levelMechanics: WeaponLevelMechanics[] = [commonRustySwordBaseStats]
 
+    for (let i = 2; i <= MAX_WEAPON_LEVEL; i++) {
+        // increment the base damage based on the level range
+        const baseDamage = levelMechanics[i - 2].baseDamage + COMMON_RUSTY_SWORD_LEVEL_RANGE.find((range) => i >= range.fromLevel && i <= range.toLevel).damageIncrement
+        // get the base attack time based on the level range
+        const baseAttackTime = COMMON_RUSTY_SWORD_LEVEL_RANGE.find((range) => i >= range.fromLevel && i <= range.toLevel).baseAttackTime
+        
+        const currentLevelMechanics: WeaponLevelMechanics = {
+            level: i,
+            baseDamage,
+            baseAttackRange: COMMON_RUSTY_SWORD_BASE_ATTACK_RANGE,
+            baseAttackTime,
+            critChance: COMMON_RUSTY_SWORD_CRIT_CHANCE,
+            attributes: [getCommonRustySwordAttribute()],
+            upgradeCost: getCommonRustySwordUpgradeCost(i)
+        }
+
+        levelMechanics.push(currentLevelMechanics)
+    }
+
+    return levelMechanics
 }
+
+/**
+ * Creates Common Rusty Sword's data for all levels and stores it as a JSON file.
+ */
+const createCommonRustySwordData = (): void => {
+    const commonRustySwordLevelMechanics: WeaponLevelMechanics[] = getCommonRustySwordLevelMechanics()
+
+    const commonRustySword: Weapon = {
+        name: 'Common Rusty Sword',
+        rarity: WeaponRarity.Common,
+        description: 'A Worn and weathered, this aged sword still holds hidden strength. A relic of battles past, it longs for a new hero to carve their legend.',
+        levelMechanics: commonRustySwordLevelMechanics,
+    }
+
+    // create the JSON file
+    const outputPath = path.join(__dirname, '../../../../../mechanics/weapons/common/commonRustySword.json')
+    fs.writeFileSync(outputPath, JSON.stringify(commonRustySword, null, 4))
+
+    console.log('Common Rusty Sword data created.')
+}
+
+createCommonRustySwordData()
 
 

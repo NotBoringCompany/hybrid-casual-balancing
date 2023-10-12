@@ -1,0 +1,2080 @@
+{
+    "name": "Common Rusty Sword",
+    "rarity": "Common",
+    "description": "A Worn and weathered, this aged sword still holds hidden strength. A relic of battles past, it longs for a new hero to carve their legend.",
+    "levelMechanics": [
+        {
+            "level": 1,
+            "baseDamage": 20,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.5,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 4,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 2,
+            "baseDamage": 25,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.5,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 10,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 3,
+            "baseDamage": 30,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.5,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 20,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 4,
+            "baseDamage": 35,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.5,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 34,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 5,
+            "baseDamage": 40,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.5,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 52,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 6,
+            "baseDamage": 45,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.5,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 74,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 7,
+            "baseDamage": 50,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.5,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 100,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 8,
+            "baseDamage": 55,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.5,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 131,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 9,
+            "baseDamage": 60,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.5,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 167,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 10,
+            "baseDamage": 65,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.5,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 207,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 11,
+            "baseDamage": 70,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.5,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 253,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 12,
+            "baseDamage": 75,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.5,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 304,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 13,
+            "baseDamage": 80,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.5,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 359,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 14,
+            "baseDamage": 85,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.5,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 421,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 15,
+            "baseDamage": 93,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 487,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 16,
+            "baseDamage": 101,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 560,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 17,
+            "baseDamage": 109,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 637,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 18,
+            "baseDamage": 117,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 721,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 19,
+            "baseDamage": 125,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 810,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 20,
+            "baseDamage": 133,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 905,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 21,
+            "baseDamage": 141,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 1007,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 22,
+            "baseDamage": 149,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 1114,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 23,
+            "baseDamage": 157,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 1227,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 24,
+            "baseDamage": 165,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 1346,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 25,
+            "baseDamage": 173,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 1472,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 26,
+            "baseDamage": 181,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 1604,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 27,
+            "baseDamage": 189,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 1742,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 28,
+            "baseDamage": 197,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 1887,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 29,
+            "baseDamage": 205,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.45,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 2038,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 30,
+            "baseDamage": 215,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.4,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 2196,
+                "energyCores": 1,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 5
+                    }
+                ]
+            }
+        },
+        {
+            "level": 31,
+            "baseDamage": 225,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.4,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 2360,
+                "energyCores": 1,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 5
+                    }
+                ]
+            }
+        },
+        {
+            "level": 32,
+            "baseDamage": 235,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.4,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 2531,
+                "energyCores": 1,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 5
+                    }
+                ]
+            }
+        },
+        {
+            "level": 33,
+            "baseDamage": 245,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.4,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 2709,
+                "energyCores": 1,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 5
+                    }
+                ]
+            }
+        },
+        {
+            "level": 34,
+            "baseDamage": 255,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.4,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 2893,
+                "energyCores": 1,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 5
+                    }
+                ]
+            }
+        },
+        {
+            "level": 35,
+            "baseDamage": 265,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.4,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 3084,
+                "energyCores": 1,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 5
+                    }
+                ]
+            }
+        },
+        {
+            "level": 36,
+            "baseDamage": 275,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.4,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 3282,
+                "energyCores": 1,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 5
+                    }
+                ]
+            }
+        },
+        {
+            "level": 37,
+            "baseDamage": 285,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.4,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 3487,
+                "energyCores": 1,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 5
+                    }
+                ]
+            }
+        },
+        {
+            "level": 38,
+            "baseDamage": 295,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.4,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 3699,
+                "energyCores": 1,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 5
+                    }
+                ]
+            }
+        },
+        {
+            "level": 39,
+            "baseDamage": 305,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.4,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 3917,
+                "energyCores": 1,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 5
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 5
+                    }
+                ]
+            }
+        },
+        {
+            "level": 40,
+            "baseDamage": 320,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.35,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 4143,
+                "energyCores": 2,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 10
+                    }
+                ]
+            }
+        },
+        {
+            "level": 41,
+            "baseDamage": 335,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.35,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 4376,
+                "energyCores": 2,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 10
+                    }
+                ]
+            }
+        },
+        {
+            "level": 42,
+            "baseDamage": 350,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.35,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 4616,
+                "energyCores": 2,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 10
+                    }
+                ]
+            }
+        },
+        {
+            "level": 43,
+            "baseDamage": 365,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.35,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 4863,
+                "energyCores": 2,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 10
+                    }
+                ]
+            }
+        },
+        {
+            "level": 44,
+            "baseDamage": 380,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.35,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 5118,
+                "energyCores": 2,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 10
+                    }
+                ]
+            }
+        },
+        {
+            "level": 45,
+            "baseDamage": 395,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.35,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 5379,
+                "energyCores": 2,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 10
+                    }
+                ]
+            }
+        },
+        {
+            "level": 46,
+            "baseDamage": 410,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.35,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 5648,
+                "energyCores": 3,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 35
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 10
+                    }
+                ]
+            }
+        },
+        {
+            "level": 47,
+            "baseDamage": 425,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.35,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 5924,
+                "energyCores": 3,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 35
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 10
+                    }
+                ]
+            }
+        },
+        {
+            "level": 48,
+            "baseDamage": 440,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.35,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 6208,
+                "energyCores": 3,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 35
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 10
+                    }
+                ]
+            }
+        },
+        {
+            "level": 49,
+            "baseDamage": 455,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.35,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 6499,
+                "energyCores": 3,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 35
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 15
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 10
+                    }
+                ]
+            }
+        },
+        {
+            "level": 50,
+            "baseDamage": 480,
+            "baseAttackRange": 175,
+            "baseAttackTime": 1.25,
+            "critChance": 0.05,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Basic Laceration",
+                        "description": "Slices through an opponent's flesh and inflicts Bleed on them for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Bleed"
+                        ]
+                    },
+                    "chance": 0.05,
+                    "modifier": {
+                        "type": "Percentage",
+                        "value": 3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 6797,
+                "energyCores": 3,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 65
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 40
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 30
+                    }
+                ]
+            }
+        }
+    ]
+}
