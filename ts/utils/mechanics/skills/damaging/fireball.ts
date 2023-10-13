@@ -193,6 +193,7 @@ const createFireballData = (): void => {
         description: 'A blazing sphere of fiery destruction.',
         targetMechanics: FIREBALL_TARGET_MECHANICS,
         rangeType: FIREBALL_RANGE_TYPE,
+        range: FIREBALL_SKILL_RANGE,
         purchaseCost: FIREBALL_PURCHASE_COST,
         levelMechanics,
     }

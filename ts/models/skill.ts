@@ -38,11 +38,32 @@ export interface DamagingSkill {
     targetMechanics: TargetMechanics,
     // the skill's range type
     rangeType: RangeType,
+    // the skill's activation range
+    range: number,
     // the cost to purchase this skill (if it is a purchasable skill)
     purchaseCost: PurchaseCost,
     // the skill's level mechanics
     levelMechanics: DamagingSkillLevelMechanics[],
+}
 
+/**
+ * Represents a skill that does not deal damage (mainly)
+ */
+export interface NonDamagingSkill {
+    // the skill's name
+    name: string,
+    // the skill's description
+    description: string,
+    // the skill's targetting mechanics
+    targetMechanics: TargetMechanics,
+    // the skill's range type
+    rangeType: RangeType,
+    // the skill's activation range
+    range: number,
+    // the cost to purchase this skill (if it is a purchasable skill)
+    purchaseCost: PurchaseCost,
+    // the skill's level mechanics
+    levelMechanics: NonDamagingSkillLevelMechanics[],
 }
 
 /**
@@ -63,6 +84,38 @@ export interface DamagingSkillLevelMechanics {
     attributes: DamagingSkillAttribute[],
     // the cost required to upgrade the skill to this level
     upgradeCost: UpgradeCost,
+}
+
+/**
+ * Represents a non-damaging skill's level mechanics (how it performs level by level)
+ */
+export interface NonDamagingSkillLevelMechanics {
+    // the skill's level
+    level: number,
+    // the skill's base cast time at this level
+    baseSkillCastTime: number,
+    // the skill's duration in seconds (only applies if there is a status effect with a duration), else 0
+    duration: number,
+    // the skill's base cooldown at this level
+    cooldown: number,
+    // the skill's attributes at this level
+    attributes: NonDamagingSkillAttribute[],
+    // the cost required to upgrade the skill to this level
+    upgradeCost: UpgradeCost,
+}
+
+/**
+ * Represents an attribute for a non-damaging skill.
+ */
+export interface NonDamagingSkillAttribute {
+    // the skill's attribute
+    attribute: Attribute,
+    // the chance for the attribute to play out
+    chance: number,
+    // the skill's attribute modifier
+    modifier: SkillModifier,
+    // the radius of effect of the skill's attribute
+    radius: number,
 }
 
 /**

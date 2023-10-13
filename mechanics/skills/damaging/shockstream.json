@@ -6,6 +6,7 @@
         "count": 3
     },
     "rangeType": "Ranged",
+    "range": 550,
     "purchaseCost": {
         "coins": 250,
         "energyCores": 0,

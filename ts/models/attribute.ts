@@ -32,7 +32,7 @@ export enum AttributeType {
     OwnHPDamage = 'Own HP Damage',
     // deals damage based on enemy's HP
     EnemyHPDamage = 'Enemy HP Damage',
-    // deals damage based on own HP
+    // has a fixed amount of healing
     SetHealing = 'Set Healing',
     // heals based on own HP
     HPHealing = 'HP Healing',

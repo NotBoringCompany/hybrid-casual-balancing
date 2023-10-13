@@ -180,6 +180,7 @@ const createShockstreamData = (): void => {
         description: 'Unleash a torrent of crackling lightning that arcs from foe to foe',
         targetMechanics: SHOCKSTREAM_TARGET_MECHANICS,
         rangeType: SHOCKSTREAM_RANGE_TYPE,
+        range: SHOCKSTREAM_SKILL_RANGE,
         purchaseCost: SHOCKSTREAM_PURCHASE_COST,
         levelMechanics,
     }

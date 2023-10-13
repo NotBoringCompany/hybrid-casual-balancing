@@ -97,5 +97,33 @@
         "statusEffects": [
             "Bleed"
         ]
+    },
+    {
+        "name": "Heal",
+        "description": "Restores your or your team's health.",
+        "types": [
+            "SetHealing"
+        ],
+        "targetMechanics": {
+            "type": "Self",
+            "count": 1
+        },
+        "statusEffects": [
+            "None"
+        ]
+    },
+    {
+        "name": "Resilience",
+        "description": "Provides you or your team with damage reduction for a period of time.",
+        "types": [
+            "Status Effect"
+        ],
+        "targetMechanics": {
+            "type": "Self",
+            "count": 1
+        },
+        "statusEffects": [
+            "Resilience"
+        ]
     }
 ]

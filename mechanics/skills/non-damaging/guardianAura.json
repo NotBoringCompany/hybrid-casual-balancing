@@ -1,44 +1,43 @@
 {
-    "name": "Sword Slam",
-    "description": "Channel your strength into a powerful, ground-shaking strike with your sword.",
+    "name": "Guardian Aura",
+    "description": "Call forth an ethereal shield, reducing incoming damage taken.",
     "targetMechanics": {
-        "type": "Enemy",
+        "type": "Self",
         "count": 1
     },
-    "rangeType": "Melee",
-    "range": 175,
+    "rangeType": "Ranged",
+    "range": 0,
     "purchaseCost": {
-        "coins": 300,
+        "coins": 150,
         "energyCores": 0,
         "resources": null
     },
     "levelMechanics": [
         {
             "level": 1,
-            "baseDamage": 150,
             "baseSkillCastTime": 1.3,
-            "duration": 0,
-            "cooldown": 20,
+            "duration": 5,
+            "cooldown": 25,
             "attributes": [
                 {
                     "attribute": {
-                        "name": "Stun",
-                        "description": "Inflicts Stun on an enemy for a period of time.",
+                        "name": "Resilience",
+                        "description": "Provides you or your team with damage reduction for a period of time.",
                         "types": [
                             "Status Effect"
                         ],
                         "targetMechanics": {
-                            "type": "Enemy",
+                            "type": "Self",
                             "count": 1
                         },
                         "statusEffects": [
-                            "Stun"
+                            "Resilience"
                         ]
                     },
-                    "chance": 0.125,
+                    "chance": 1,
                     "modifier": {
-                        "type": "Number",
-                        "value": 3
+                        "type": "Percentage",
+                        "value": 30
                     },
                     "radius": 0
                 }
@@ -51,402 +50,373 @@
         },
         {
             "level": 2,
-            "baseDamage": 215,
             "baseSkillCastTime": 1.3,
-            "duration": 0,
-            "cooldown": 19.5,
+            "duration": 5,
+            "cooldown": 24,
             "attributes": [
                 {
                     "attribute": {
-                        "name": "Stun",
-                        "description": "Inflicts Stun on an enemy for a period of time.",
+                        "name": "Resilience",
+                        "description": "Provides you or your team with damage reduction for a period of time.",
                         "types": [
                             "Status Effect"
                         ],
                         "targetMechanics": {
-                            "type": "Enemy",
+                            "type": "Self",
                             "count": 1
                         },
                         "statusEffects": [
-                            "Stun"
+                            "Resilience"
                         ]
                     },
-                    "chance": 0.125,
+                    "chance": 1,
                     "modifier": {
-                        "type": "Number",
-                        "value": 3.3
+                        "type": "Percentage",
+                        "value": 35
                     },
                     "radius": 0
                 }
             ],
             "upgradeCost": {
-                "coins": 109,
+                "coins": 57,
                 "energyCores": 1,
                 "resources": null
             }
         },
         {
             "level": 3,
-            "baseDamage": 280,
             "baseSkillCastTime": 1.3,
-            "duration": 0,
-            "cooldown": 19,
+            "duration": 5,
+            "cooldown": 23,
             "attributes": [
                 {
                     "attribute": {
-                        "name": "Stun",
-                        "description": "Inflicts Stun on an enemy for a period of time.",
+                        "name": "Resilience",
+                        "description": "Provides you or your team with damage reduction for a period of time.",
                         "types": [
                             "Status Effect"
                         ],
                         "targetMechanics": {
-                            "type": "Enemy",
+                            "type": "Self",
                             "count": 1
                         },
                         "statusEffects": [
-                            "Stun"
+                            "Resilience"
                         ]
                     },
-                    "chance": 0.125,
+                    "chance": 1,
                     "modifier": {
-                        "type": "Number",
-                        "value": 3.6
+                        "type": "Percentage",
+                        "value": 40
                     },
                     "radius": 0
                 }
             ],
             "upgradeCost": {
-                "coins": 271,
+                "coins": 138,
                 "energyCores": 1,
                 "resources": null
             }
         },
         {
             "level": 4,
-            "baseDamage": 345,
             "baseSkillCastTime": 1.3,
-            "duration": 0,
-            "cooldown": 18.5,
+            "duration": 5,
+            "cooldown": 22,
             "attributes": [
                 {
                     "attribute": {
-                        "name": "Stun",
-                        "description": "Inflicts Stun on an enemy for a period of time.",
+                        "name": "Resilience",
+                        "description": "Provides you or your team with damage reduction for a period of time.",
                         "types": [
                             "Status Effect"
                         ],
                         "targetMechanics": {
-                            "type": "Enemy",
+                            "type": "Self",
                             "count": 1
                         },
                         "statusEffects": [
-                            "Stun"
+                            "Resilience"
                         ]
                     },
-                    "chance": 0.125,
+                    "chance": 1,
                     "modifier": {
-                        "type": "Number",
-                        "value": 3.9
+                        "type": "Percentage",
+                        "value": 45
                     },
                     "radius": 0
                 }
             ],
             "upgradeCost": {
-                "coins": 577,
+                "coins": 291,
                 "energyCores": 1,
                 "resources": null
             }
         },
         {
             "level": 5,
-            "baseDamage": 445,
             "baseSkillCastTime": 1.3,
-            "duration": 0,
-            "cooldown": 18,
+            "duration": 5,
+            "cooldown": 21,
             "attributes": [
                 {
                     "attribute": {
-                        "name": "Stun",
-                        "description": "Inflicts Stun on an enemy for a period of time.",
+                        "name": "Resilience",
+                        "description": "Provides you or your team with damage reduction for a period of time.",
                         "types": [
                             "Status Effect"
                         ],
                         "targetMechanics": {
-                            "type": "Enemy",
+                            "type": "Self",
                             "count": 1
                         },
                         "statusEffects": [
-                            "Stun"
+                            "Resilience"
                         ]
                     },
-                    "chance": 0.175,
+                    "chance": 1,
                     "modifier": {
-                        "type": "Number",
-                        "value": 4.5
+                        "type": "Percentage",
+                        "value": 50
                     },
                     "radius": 0
                 }
             ],
             "upgradeCost": {
-                "coins": 1075,
-                "energyCores": 2,
+                "coins": 540,
+                "energyCores": 1,
                 "resources": [
                     {
                         "type": "Wood",
-                        "amount": 35
+                        "amount": 15
                     },
                     {
                         "type": "Stone",
-                        "amount": 25
-                    },
-                    {
-                        "type": "Coal",
-                        "amount": 20
+                        "amount": 10
                     }
                 ]
             }
         },
         {
             "level": 6,
-            "baseDamage": 545,
             "baseSkillCastTime": 1.3,
-            "duration": 0,
-            "cooldown": 17.5,
+            "duration": 5,
+            "cooldown": 20,
             "attributes": [
                 {
                     "attribute": {
-                        "name": "Stun",
-                        "description": "Inflicts Stun on an enemy for a period of time.",
+                        "name": "Resilience",
+                        "description": "Provides you or your team with damage reduction for a period of time.",
                         "types": [
                             "Status Effect"
                         ],
                         "targetMechanics": {
-                            "type": "Enemy",
+                            "type": "Self",
                             "count": 1
                         },
                         "statusEffects": [
-                            "Stun"
+                            "Resilience"
                         ]
                     },
-                    "chance": 0.175,
+                    "chance": 1,
                     "modifier": {
-                        "type": "Number",
-                        "value": 5.1
+                        "type": "Percentage",
+                        "value": 55
                     },
                     "radius": 0
                 }
             ],
             "upgradeCost": {
-                "coins": 1813,
-                "energyCores": 2,
+                "coins": 909,
+                "energyCores": 1,
                 "resources": [
                     {
                         "type": "Wood",
-                        "amount": 35
+                        "amount": 15
                     },
                     {
                         "type": "Stone",
-                        "amount": 25
-                    },
-                    {
-                        "type": "Coal",
-                        "amount": 20
+                        "amount": 10
                     }
                 ]
             }
         },
         {
             "level": 7,
-            "baseDamage": 645,
             "baseSkillCastTime": 1.3,
-            "duration": 0,
-            "cooldown": 17,
+            "duration": 5,
+            "cooldown": 19,
             "attributes": [
                 {
                     "attribute": {
-                        "name": "Stun",
-                        "description": "Inflicts Stun on an enemy for a period of time.",
+                        "name": "Resilience",
+                        "description": "Provides you or your team with damage reduction for a period of time.",
                         "types": [
                             "Status Effect"
                         ],
                         "targetMechanics": {
-                            "type": "Enemy",
+                            "type": "Self",
                             "count": 1
                         },
                         "statusEffects": [
-                            "Stun"
+                            "Resilience"
                         ]
                     },
-                    "chance": 0.175,
+                    "chance": 1,
                     "modifier": {
-                        "type": "Number",
-                        "value": 5.7
+                        "type": "Percentage",
+                        "value": 60
                     },
                     "radius": 0
                 }
             ],
             "upgradeCost": {
-                "coins": 2839,
-                "energyCores": 2,
+                "coins": 1422,
+                "energyCores": 1,
                 "resources": [
                     {
                         "type": "Wood",
-                        "amount": 35
+                        "amount": 15
                     },
                     {
                         "type": "Stone",
-                        "amount": 25
-                    },
-                    {
-                        "type": "Coal",
-                        "amount": 20
+                        "amount": 10
                     }
                 ]
             }
         },
         {
             "level": 8,
-            "baseDamage": 745,
             "baseSkillCastTime": 1.3,
-            "duration": 0,
-            "cooldown": 16.5,
+            "duration": 5,
+            "cooldown": 18,
             "attributes": [
                 {
                     "attribute": {
-                        "name": "Stun",
-                        "description": "Inflicts Stun on an enemy for a period of time.",
+                        "name": "Resilience",
+                        "description": "Provides you or your team with damage reduction for a period of time.",
                         "types": [
                             "Status Effect"
                         ],
                         "targetMechanics": {
-                            "type": "Enemy",
+                            "type": "Self",
                             "count": 1
                         },
                         "statusEffects": [
-                            "Stun"
+                            "Resilience"
                         ]
                     },
-                    "chance": 0.175,
+                    "chance": 1,
                     "modifier": {
-                        "type": "Number",
-                        "value": 6.3
+                        "type": "Percentage",
+                        "value": 65
                     },
                     "radius": 0
                 }
             ],
             "upgradeCost": {
-                "coins": 4201,
-                "energyCores": 2,
+                "coins": 2103,
+                "energyCores": 1,
                 "resources": [
                     {
                         "type": "Wood",
-                        "amount": 35
+                        "amount": 15
                     },
                     {
                         "type": "Stone",
-                        "amount": 25
-                    },
-                    {
-                        "type": "Coal",
-                        "amount": 20
+                        "amount": 10
                     }
                 ]
             }
         },
         {
             "level": 9,
-            "baseDamage": 845,
             "baseSkillCastTime": 1.3,
-            "duration": 0,
-            "cooldown": 16,
+            "duration": 5,
+            "cooldown": 17,
             "attributes": [
                 {
                     "attribute": {
-                        "name": "Stun",
-                        "description": "Inflicts Stun on an enemy for a period of time.",
+                        "name": "Resilience",
+                        "description": "Provides you or your team with damage reduction for a period of time.",
                         "types": [
                             "Status Effect"
                         ],
                         "targetMechanics": {
-                            "type": "Enemy",
+                            "type": "Self",
                             "count": 1
                         },
                         "statusEffects": [
-                            "Stun"
+                            "Resilience"
                         ]
                     },
-                    "chance": 0.175,
+                    "chance": 1,
                     "modifier": {
-                        "type": "Number",
-                        "value": 6.9
+                        "type": "Percentage",
+                        "value": 70
                     },
                     "radius": 0
                 }
             ],
             "upgradeCost": {
-                "coins": 5947,
-                "energyCores": 2,
+                "coins": 2976,
+                "energyCores": 1,
                 "resources": [
                     {
                         "type": "Wood",
-                        "amount": 35
+                        "amount": 15
                     },
                     {
                         "type": "Stone",
-                        "amount": 25
-                    },
-                    {
-                        "type": "Coal",
-                        "amount": 20
+                        "amount": 10
                     }
                 ]
             }
         },
         {
             "level": 10,
-            "baseDamage": 1020,
             "baseSkillCastTime": 1.3,
-            "duration": 0,
-            "cooldown": 15.5,
+            "duration": 5,
+            "cooldown": 16,
             "attributes": [
                 {
                     "attribute": {
-                        "name": "Stun",
-                        "description": "Inflicts Stun on an enemy for a period of time.",
+                        "name": "Resilience",
+                        "description": "Provides you or your team with damage reduction for a period of time.",
                         "types": [
                             "Status Effect"
                         ],
                         "targetMechanics": {
-                            "type": "Enemy",
+                            "type": "Self",
                             "count": 1
                         },
                         "statusEffects": [
-                            "Stun"
+                            "Resilience"
                         ]
                     },
-                    "chance": 0.25,
+                    "chance": 1,
                     "modifier": {
-                        "type": "Number",
-                        "value": 8.5
+                        "type": "Percentage",
+                        "value": 75
                     },
                     "radius": 0
                 }
             ],
             "upgradeCost": {
-                "coins": 8125,
-                "energyCores": 5,
+                "coins": 4065,
+                "energyCores": 3,
                 "resources": [
                     {
                         "type": "Wood",
-                        "amount": 100
+                        "amount": 50
                     },
                     {
                         "type": "Stone",
-                        "amount": 45
+                        "amount": 30
                     },
                     {
                         "type": "Coal",
-                        "amount": 35
+                        "amount": 10
                     }
                 ]
             }

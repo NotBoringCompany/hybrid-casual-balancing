@@ -12,6 +12,8 @@ export enum StatusEffect {
     Stun = 'Stun',
     // blinds the enemy, reducing their accuracy
     Blind = 'Blind',
+    // gives resistance to any kind of attack (weapon or skill)
+    Resilience = 'Resilience',
     // none
     None = 'None',
 }

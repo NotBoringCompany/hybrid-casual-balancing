@@ -191,6 +191,7 @@ const createSwordSlamData = (): void => {
         description: 'Channel your strength into a powerful, ground-shaking strike with your sword.',
         targetMechanics: SWORD_SLAM_TARGET_MECHANICS,
         rangeType: SWORD_SLAM_RANGE_TYPE,
+        range: SWORD_SLAM_SKILL_RANGE,
         purchaseCost: SWORD_SLAM_PURCHASE_COST,
         levelMechanics,
     }
