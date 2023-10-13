@@ -144,10 +144,10 @@ const getFireballUpgradeCost = (level: number): UpgradeCost => {
  */
 const fireballBaseStats: DamagingSkillLevelMechanics = {
     level: 1,
-    baseDamage: 75,
-    baseSkillCastTime: 1.3,
+    baseDamage: FIREBALL_BASE_DAMAGE,
+    baseSkillCastTime: FIREBALL_BASE_SKILL_CAST_TIME,
     duration: FIREBALL_DURATION,
-    cooldown: 12.5,
+    cooldown: FIREBALL_BASE_COOLDOWN,
     attributes: [getFireballAttribute(1)],
     upgradeCost: getFireballUpgradeCost(1),
 }
@@ -194,7 +194,7 @@ const createFireballData = (): void => {
         targetMechanics: FIREBALL_TARGET_MECHANICS,
         rangeType: FIREBALL_RANGE_TYPE,
         purchaseCost: FIREBALL_PURCHASE_COST,
-        levelMechanics: levelMechanics,
+        levelMechanics,
     }
 
     // create the JSON file
