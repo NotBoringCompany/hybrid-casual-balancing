@@ -1,4 +1,8 @@
 import { Attribute } from './attribute'
+import { PurchaseCost } from './purchase'
+import { RangeType } from './range'
+import { TargetMechanics, TargetType } from './target'
+import { UpgradeCost } from './upgradeCost'
 
 /**
  * Shows the minimum level required for the player to level up their skill to a certain level.
@@ -20,6 +24,59 @@ export interface EnemySkill {
     addDescription: string,
     // the skill's level mechanics for the attributes
     levelMechanics: EnemySkillLevelMechanics[],
+}
+
+/**
+ * Represents a skill that deals damage (mainly)
+ */
+export interface DamagingSkill {
+    // the skill's name
+    name: string,
+    // the skill's description
+    description: string,
+    // the skill's targetting mechanics
+    targetMechanics: TargetMechanics,
+    // the skill's range type
+    rangeType: RangeType,
+    // the cost to purchase this skill (if it is a purchasable skill)
+    purchaseCost: PurchaseCost,
+    // the skill's level mechanics
+    levelMechanics: DamagingSkillLevelMechanics[],
+
+}
+
+/**
+ * Represents a damaging skill's level mechanics (how it performs level by level)
+ */
+export interface DamagingSkillLevelMechanics {
+    // the skill's level
+    level: number,
+    // the skill's base damage at this level
+    baseDamage: number,
+    // the skill's base cast time at this level
+    baseSkillCastTime: number,
+    // the skill's duration (0 if not status effect)
+    duration: number,
+    // the skill's base cooldown at this level
+    cooldown: number,
+    // the skill's attributes at this level
+    attributes: DamagingSkillAttribute[],
+    // the cost required to upgrade the skill to this level
+    upgradeCost: UpgradeCost,
+}
+
+/**
+ * Represents an attribute for a damaging skill.
+ */
+export interface DamagingSkillAttribute {
+    // the skill's attribute
+    attribute: Attribute,
+    // the chance for the attribute to play out
+    chance: number,
+    // the skill's attribute modifier
+    modifier: SkillModifier,
+    // the radius of effect of the skill's attribute
+    radius: number,
 }
 
 /**

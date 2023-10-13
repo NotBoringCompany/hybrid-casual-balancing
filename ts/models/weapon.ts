@@ -1,4 +1,6 @@
 import { Attribute } from './attribute'
+import { PurchaseCost } from './purchase';
+import { RangeType } from './range';
 import { UpgradeCost } from './upgradeCost';
 
 /**
@@ -21,6 +23,10 @@ export interface Weapon {
     description: string,
     // the rarity of the weapon
     rarity: WeaponRarity,
+    // the weapon's range type
+    rangeType: RangeType,
+    // the cost to purchase this weapon (if it is a purchasable weapon)
+    purchaseCost: PurchaseCost,
     // the weapon's attribute (i.e. characteristics)
     levelMechanics: WeaponLevelMechanics[],
 }

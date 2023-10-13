@@ -1,7 +1,10 @@
-import { loadSheet } from '../../configs/sheets'
+import { loadSheet } from '../../../configs/sheets'
 import fs from 'fs'
 import path from 'path'
-import { SkillLevelRequirement } from '../../models/skill'
+import { SkillLevelRequirement } from '../../../models/skill'
+
+// max upgradable level for any skill
+export const MAX_SKILL_LEVEL = 10
 
 /**
  * Creates a new skill level requirement JSON file with the intended mechanics (gathered from Google Sheets).

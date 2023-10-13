@@ -7,6 +7,7 @@ import { Weapon, WeaponAttribute, WeaponAttributeModifierType, WeaponLevelMechan
 import { UpgradeCost } from '../../../../models/upgradeCost'
 import { Resource } from '../../../../models/resource'
 import { MAX_WEAPON_LEVEL } from '../weapon'
+import { PurchaseCost } from '../../../../models/purchase'
 
 // each level range corresponds to a specific damage increment and base attack time per level for a common rusty sword
 const COMMON_RUSTY_SWORD_LEVEL_RANGE = [
@@ -34,6 +35,12 @@ const COMMON_RUSTY_SWORD_ATTR_CHANCE = 0.05
 const COMMON_RUSTY_SWORD_ATTR_MODIFIER_TYPE = WeaponAttributeModifierType.Percentage
 // common rusty sword's attribute modifier value is constant
 const COMMON_RUSTY_SWORD_ATTR_MODIFIER_VALUE = 3
+// common rusty sword's purchase cost
+const COMMON_RUSTY_SWORD_PURCHASE_COST: PurchaseCost = {
+    coins: 150,
+    energyCores: 0,
+    resources: null,
+}
 
 /**
  * Gets Common Rusty Sword's attribute (Basic Laceration).
@@ -66,8 +73,16 @@ const getCommonRustySwordUpgradeCost = (level: number): UpgradeCost => {
     // the coins required
     const coins = Math.floor(Math.pow(level, 2.25) + (level * 3))
 
-    // if level 1 - 14
-    if ((level >= 1 && level <= 14) || (level >= 15 && level <= 29)) {
+    if (level === 1) {
+        return {
+            coins: 0,
+            energyCores: 0,
+            resources: null,
+        }
+    }
+
+    // if level 2 - 14
+    if ((level > 1 && level <= 14) || (level >= 15 && level <= 29)) {
         return {
             coins,
             energyCores: 0,
@@ -191,7 +206,9 @@ const createCommonRustySwordData = (): void => {
     const commonRustySword: Weapon = {
         name: 'Common Rusty Sword',
         rarity: WeaponRarity.Common,
+        rangeType: COMMON_RUSTY_SWORD_RANGE_TYPE,
         description: 'A Worn and weathered, this aged sword still holds hidden strength. A relic of battles past, it longs for a new hero to carve their legend.',
+        purchaseCost: COMMON_RUSTY_SWORD_PURCHASE_COST,
         levelMechanics: commonRustySwordLevelMechanics,
     }
 

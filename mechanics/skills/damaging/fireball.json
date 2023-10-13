@@ -1,0 +1,454 @@
+{
+    "name": "Fireball",
+    "description": "A blazing sphere of fiery destruction.",
+    "targetMechanics": {
+        "type": "Enemy",
+        "count": 1
+    },
+    "rangeType": "Ranged",
+    "purchaseCost": {
+        "coins": 220,
+        "energyCores": 0,
+        "resources": null
+    },
+    "levelMechanics": [
+        {
+            "level": 1,
+            "baseDamage": 75,
+            "baseSkillCastTime": 1.3,
+            "duration": 3,
+            "cooldown": 12.5,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Ignite",
+                        "description": "Inflicts Burn on an enemy for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Burn"
+                        ]
+                    },
+                    "chance": 0.1,
+                    "modifier": {
+                        "type": "Number",
+                        "value": 1.5
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 0,
+                "energyCores": 0,
+                "resources": null
+            }
+        },
+        {
+            "level": 2,
+            "baseDamage": 120,
+            "baseSkillCastTime": 1.3,
+            "duration": 3,
+            "cooldown": 12,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Ignite",
+                        "description": "Inflicts Burn on an enemy for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Burn"
+                        ]
+                    },
+                    "chance": 0.1,
+                    "modifier": {
+                        "type": "Number",
+                        "value": 1.7
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 111,
+                "energyCores": 1,
+                "resources": null
+            }
+        },
+        {
+            "level": 3,
+            "baseDamage": 165,
+            "baseSkillCastTime": 1.3,
+            "duration": 3,
+            "cooldown": 11.5,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Ignite",
+                        "description": "Inflicts Burn on an enemy for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Burn"
+                        ]
+                    },
+                    "chance": 0.1,
+                    "modifier": {
+                        "type": "Number",
+                        "value": 1.9
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 279,
+                "energyCores": 1,
+                "resources": null
+            }
+        },
+        {
+            "level": 4,
+            "baseDamage": 210,
+            "baseSkillCastTime": 1.3,
+            "duration": 3,
+            "cooldown": 11,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Ignite",
+                        "description": "Inflicts Burn on an enemy for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Burn"
+                        ]
+                    },
+                    "chance": 0.1,
+                    "modifier": {
+                        "type": "Number",
+                        "value": 2.1
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 596,
+                "energyCores": 1,
+                "resources": null
+            }
+        },
+        {
+            "level": 5,
+            "baseDamage": 275,
+            "baseSkillCastTime": 1.3,
+            "duration": 3,
+            "cooldown": 10.5,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Ignite",
+                        "description": "Inflicts Burn on an enemy for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Burn"
+                        ]
+                    },
+                    "chance": 0.15,
+                    "modifier": {
+                        "type": "Number",
+                        "value": 2.5
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 1112,
+                "energyCores": 2,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 35
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 25
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 20
+                    }
+                ]
+            }
+        },
+        {
+            "level": 6,
+            "baseDamage": 340,
+            "baseSkillCastTime": 1.3,
+            "duration": 3,
+            "cooldown": 10,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Ignite",
+                        "description": "Inflicts Burn on an enemy for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Burn"
+                        ]
+                    },
+                    "chance": 0.15,
+                    "modifier": {
+                        "type": "Number",
+                        "value": 2.9
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 1877,
+                "energyCores": 2,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 35
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 25
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 20
+                    }
+                ]
+            }
+        },
+        {
+            "level": 7,
+            "baseDamage": 405,
+            "baseSkillCastTime": 1.3,
+            "duration": 3,
+            "cooldown": 9.5,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Ignite",
+                        "description": "Inflicts Burn on an enemy for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Burn"
+                        ]
+                    },
+                    "chance": 0.15,
+                    "modifier": {
+                        "type": "Number",
+                        "value": 3.3
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 2941,
+                "energyCores": 2,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 35
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 25
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 20
+                    }
+                ]
+            }
+        },
+        {
+            "level": 8,
+            "baseDamage": 470,
+            "baseSkillCastTime": 1.3,
+            "duration": 3,
+            "cooldown": 9,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Ignite",
+                        "description": "Inflicts Burn on an enemy for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Burn"
+                        ]
+                    },
+                    "chance": 0.15,
+                    "modifier": {
+                        "type": "Number",
+                        "value": 3.7
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 4354,
+                "energyCores": 2,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 35
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 25
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 20
+                    }
+                ]
+            }
+        },
+        {
+            "level": 9,
+            "baseDamage": 535,
+            "baseSkillCastTime": 1.3,
+            "duration": 3,
+            "cooldown": 8.5,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Ignite",
+                        "description": "Inflicts Burn on an enemy for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Burn"
+                        ]
+                    },
+                    "chance": 0.15,
+                    "modifier": {
+                        "type": "Number",
+                        "value": 4.1
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 6165,
+                "energyCores": 2,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 35
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 25
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 20
+                    }
+                ]
+            }
+        },
+        {
+            "level": 10,
+            "baseDamage": 635,
+            "baseSkillCastTime": 1.3,
+            "duration": 3,
+            "cooldown": 8,
+            "attributes": [
+                {
+                    "attribute": {
+                        "name": "Ignite",
+                        "description": "Inflicts Burn on an enemy for a period of time.",
+                        "types": [
+                            "Status Effect"
+                        ],
+                        "targetMechanics": {
+                            "type": "Enemy",
+                            "count": 1
+                        },
+                        "statusEffects": [
+                            "Burn"
+                        ]
+                    },
+                    "chance": 0.25,
+                    "modifier": {
+                        "type": "Number",
+                        "value": 5
+                    },
+                    "radius": 0
+                }
+            ],
+            "upgradeCost": {
+                "coins": 8425,
+                "energyCores": 5,
+                "resources": [
+                    {
+                        "type": "Wood",
+                        "amount": 100
+                    },
+                    {
+                        "type": "Stone",
+                        "amount": 45
+                    },
+                    {
+                        "type": "Coal",
+                        "amount": 35
+                    }
+                ]
+            }
+        }
+    ]
+}

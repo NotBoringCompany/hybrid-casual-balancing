@@ -1,7 +1,13 @@
 {
     "name": "Common Rusty Sword",
     "rarity": "Common",
+    "rangeType": "Melee",
     "description": "A Worn and weathered, this aged sword still holds hidden strength. A relic of battles past, it longs for a new hero to carve their legend.",
+    "purchaseCost": {
+        "coins": 150,
+        "energyCores": 0,
+        "resources": null
+    },
     "levelMechanics": [
         {
             "level": 1,
