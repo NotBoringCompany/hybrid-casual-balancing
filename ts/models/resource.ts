@@ -16,3 +16,13 @@ export interface ResourceCost {
     // the amount of resources required
     amount: number,
 }
+
+/**
+ * Represents a quest's resources required.
+ */
+export interface ResourcesRequired {
+    // the resource type
+    type: Resource,
+    // the amount of resources required
+    amount: number,
+}

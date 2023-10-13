@@ -5,6 +5,17 @@ import { TargetMechanics, TargetType } from './target'
 import { UpgradeCost } from './upgradeCost'
 
 /**
+ * Lists all currently available skills
+ */
+export enum AvailableSkills {
+    Fireball = 'Fireball',
+    Shockstream = 'Shockstream',
+    SwordSlam = 'Sword Slam',
+    GuardianAura = 'Guardian Aura',
+    RestorativeTouch = 'Restorative Touch',
+}
+
+/**
  * Shows the minimum level required for the player to level up their skill to a certain level.
  */
 export interface SkillLevelRequirement {

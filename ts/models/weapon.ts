@@ -4,6 +4,13 @@ import { RangeType } from './range';
 import { UpgradeCost } from './upgradeCost';
 
 /**
+ * Lists all currently available weapons.
+ */
+export enum AvailableWeapons {
+    CommonRustySword = 'Common Rusty Sword',
+}
+
+/**
  * Shows the minimum level required for the player to level up their weapon to a certain level.
  */
 export interface WeaponLevelRequirement {

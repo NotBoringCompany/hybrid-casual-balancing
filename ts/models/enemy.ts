@@ -2,6 +2,25 @@ import { RangeType } from './range'
 import { EnemySkill } from './skill'
 
 /**
+ * Lists all currently available enemies.
+ */
+export enum AvailableEnemies {
+    Trufo = 'Trufo',
+    Golem = 'Golem',
+    Firefly = 'Firefly',
+}
+
+/**
+ * Represents a quest's required enemies to be defeated.
+ */
+export interface EnemiesRequired {
+    // the enemy type
+    type: AvailableEnemies,
+    // the amount of enemies required
+    amount: number,
+}
+
+/**
  * Represents an instance of an enemy.
  */
 export interface Enemy {
