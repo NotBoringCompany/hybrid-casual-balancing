@@ -11,7 +11,6 @@ import { MAX_SKILL_LEVEL } from '../skill'
 
 // each level range has a different damage increment, attribute chance and attribute modifier increment
 // base attribute modifier for each level range is the base modifier at `fromLevel`
-// e.g. at level 5, the base attribute modifier is 2.5
 const SHOCKSTREAM_LEVEL_RANGE = [
     { fromLevel: 1, toLevel: 4, damageIncrement: 10, attributeChance: 1, baseAttributeModifier: 50, attributeModifierIncrement: 0 },
     { fromLevel: 5, toLevel: 9, damageIncrement: 18, attributeChance: 1, baseAttributeModifier: 60, attributeModifierIncrement: 0 },
