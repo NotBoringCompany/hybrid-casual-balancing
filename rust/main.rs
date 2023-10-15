@@ -1,3 +1,5 @@
+mod models;
+
 use salvo::prelude::*;
 
 /// Checks to see if Salvo is running
