@@ -19,10 +19,13 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 
 map_points = get_map_boundary()
 
-scaled_polygon_points = [(x * tile_size, y * tile_size) for x, y in map_points]
+scaled_polygon_points = [(x * tile_size, (screen_height - y * tile_size)) for x, y in map_points]
 
 # Set the polygon color
 polygon_color = (0, 0, 255)  # Blue color (R, G, B)
+
+# Create a font object
+font = pygame.font.Font(None, 14)  # You can adjust the font size
 
 # Main game loop
 running = True
@@ -42,6 +45,11 @@ while running:
 
     # Draw the polygon
     pygame.draw.polygon(screen, polygon_color, scaled_polygon_points, 2)  # 2 is the line width
+
+    # Label the points with coordinates
+    for i, (x, y) in enumerate(scaled_polygon_points):
+        label = font.render(f'({x}, {y})', True, (255, 0, 0))  # Red text (R, G, B)
+        screen.blit(label, (x, y - 30))  # Adjust the y-coordinate for label placement
 
     # Update the display
     pygame.display.flip()

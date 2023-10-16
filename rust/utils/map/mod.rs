@@ -1,7 +1,9 @@
-pub mod load_map;
-pub mod position_handling;
-pub mod coord_system;
+pub mod load;
+pub mod boundary;
+pub mod coordinates;
+pub mod locations;
 
-pub use load_map::*;
-pub use position_handling::*;
-pub use coord_system::*;
+pub use load::*;
+pub use boundary::*;
+pub use coordinates::*;
+pub use locations::*;

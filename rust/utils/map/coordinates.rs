@@ -1,4 +1,4 @@
-use super::load_map::load_map;
+use super::load::load_map;
 
 /// By default, the coordinate system has top left as the origin (0, 0). This means that the y value goes up as you go down the map.
 /// 
