@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="344">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="25" nextobjectid="389">
  <editorsettings>
-  <export target="map.json" format="json"/>
+  <export target="mapData.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" source="map_tileset.tsx"/>
  <objectgroup id="5" name="Stones">
@@ -216,6 +216,25 @@
   <object id="1" name="Beacon 2" x="533.125" y="482.938" width="8.875" height="8.1875"/>
   <object id="2" name="Beacon 1" x="796.375" y="650.375" width="8.25" height="8.875"/>
   <object id="125" name="Beacon 3" x="296.667" y="165.667" width="5" height="5"/>
+ </objectgroup>
+ <objectgroup id="23" name="Beacon 3 Breathable Area">
+  <object id="384" name="Beacon 3 Unlock" x="131" y="13.3333" width="319.333" height="319.333">
+   <ellipse/>
+  </object>
+  <object id="385" name="Beacon 3 Breathable Area 1" x="44.3333" y="-65.062" width="482" height="476.395">
+   <ellipse/>
+  </object>
+  <object id="386" name="Beacon 3 Breathable Area 2" x="-36" y="-134.287" width="634.859" height="631.287">
+   <ellipse/>
+  </object>
+  <object id="387" name="Beacon 3 Breathable Area 3" x="-124" y="-215" width="807" height="807">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="24" name="Test Boundary">
+  <object id="388" name="Test Boundary" x="0" y="0">
+   <polygon points="0,0 0,128 128,128 128,0"/>
+  </object>
  </objectgroup>
  <objectgroup id="6" name="Coals">
   <object id="126" name="Coal 1" x="467.625" y="410.188">
@@ -801,6 +820,55 @@
   </object>
   <object id="343" name="Golem" x="327.182" y="201.273" width="9.63636" height="7.45455">
    <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="15" name="Starting Point">
+  <object id="348" name="Starting Point" x="861.667" y="994.333">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="22" name="Beacon 1 Breathable Area">
+  <object id="374" name="Beacon 1 Unlock" x="644" y="515.333" width="305.333" height="305.333">
+   <ellipse/>
+  </object>
+  <object id="375" name="Beacon 1 Breathable Area 1" x="595" y="471" width="399.5" height="401.5">
+   <ellipse/>
+  </object>
+  <object id="376" name="Beacon 1 Breathable Area 2" x="536.313" y="418.75" width="511.937" height="514.5">
+   <ellipse/>
+  </object>
+  <object id="377" name="Beacon 1 Breathable Area 3" x="466.022" y="360.25" width="639.946" height="643.15">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="18" name="Beacon 2 Breathable Area">
+  <object id="378" name="Beacon 2 Unlock" x="351.5" y="318" width="361.833" height="361.833">
+   <ellipse/>
+  </object>
+  <object id="379" name="Beacon 2 Breathable Area 1" x="252" y="224.667" width="558.667" height="558.667">
+   <ellipse/>
+  </object>
+  <object id="380" name="Beacon 2 Breathable Area 2" x="179.667" y="161" width="699.333" height="699.333">
+   <ellipse/>
+  </object>
+  <object id="381" name="Beacon 2 Breathable Area 3" x="116.179" y="92.2667" width="822.333" height="855.227">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="21" name="Pfufu Breathable Area">
+  <object id="368" name="Pfufu Breathable Area Start" x="723" y="882" width="209" height="209">
+   <ellipse/>
+  </object>
+  <object id="369" name="Pfufu Breathable Area 1" x="584.5" y="746.5" width="483.833" height="483.833">
+   <ellipse/>
+  </object>
+  <object id="373" name="Pfufu Breathable Area 2" x="496" y="650" width="673.153" height="697">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="20" name="Map Boundaries">
+  <object id="367" name="Map Boundary" x="298" y="145">
+   <polygon points="0,0 -69,21 -132,15 -170,10 -191,19 -231,36 -265,72 -266,101 -267,155 -251,199 -217,228 -219,240 -262,259 -269,284 -258,305 -251,304 -241,321 -221,322 -208,315 -215,331 -222,339 -219,353 -224,372 -218,397 -199,424 -180,427 -158,446 -130,445 -106,457 -80,458 -52,471 -50,493 -34,501 -27,514 -9,517 23,506 43,485 36,458 34,445 42,439 79,453 104,493 131,502 153,529 179,516 205,490 204,464 235,449 253,455 259,443 278,435 296,460 324,460 334,500 314,511 289,525 277,517 252,531 249,540 234,549 238,565 250,572 253,594 245,618 229,637 230,653 220,672 237,691 256,695 281,717 313,721 343,719 382,737 401,771 401,791 427,814 423,830 438,840 459,847 467,838 484,841 495,845 505,863 518,868 550,862 558,872 587,867 593,851 587,830 608,823 625,797 637,810 647,797 633,782 647,757 665,754 682,748 681,737 704,732 720,672 707,612 680,586 681,562 699,547 692,527 677,525 667,502 647,483 622,483 594,516 565,520 527,507 536,492 533,474 540,462 513,448 530,429 523,416 540,398 539,388 526,376 538,357 551,358 566,350 582,360 605,344 609,330 596,313 598,281 584,243 559,234 542,216 487,216 487,198 462,194 421,206 420,189 408,161 396,158 381,159 360,168 356,172 345,169 335,163 331,170 317,177 314,184 291,166 277,140 302,113 297,95 293,70 299,64 246,42 191,32 119,41 79,6"/>
   </object>
  </objectgroup>
  <objectgroup id="14" name="Razer">
