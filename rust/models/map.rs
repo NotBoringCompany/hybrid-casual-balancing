@@ -12,7 +12,7 @@ pub struct Map {
 }
 
 /// Represents a layer of a Tiled map that contains objects and/or tiles.
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Clone, Serialize, Deserialize, Debug)]
 pub struct Layer {
     // the name of the layer
     pub name: String,
@@ -21,7 +21,7 @@ pub struct Layer {
 }
 
 /// Represents an object that exists within a Layer instance in a Tiled map.
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Clone, Serialize, Deserialize, Debug)]
 pub struct Object {
     // represents the name of the object
     pub name: String,
