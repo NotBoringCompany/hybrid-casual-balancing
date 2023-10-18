@@ -1,5 +1,7 @@
 use crate::{models::Point, utils::{load_map, load_map_layer}};
 
+// LOCATIONS REFER TO THE MIDDLE POINTS OF OBJECTS AND NOT THEIR COLLISION BOXES //
+
 /// Gets the starting point of the player within the map.
 pub fn get_starting_point() -> Point {
     // get the layers and find a layer called `Starting Point`
@@ -41,11 +43,11 @@ pub fn get_pfufu_location() -> Point {
     let topmost_point = pfufu_polygon_points.iter().min_by(|a, b| a.y.partial_cmp(&b.y).unwrap()).unwrap();
     let bottommost_point = pfufu_polygon_points.iter().max_by(|a, b| a.y.partial_cmp(&b.y).unwrap()).unwrap();
 
-    // get the middle point of Pfufu's polygon (which will be dubbed as its location)
+    // get the middle point of Pfufu's polygon (which will effectively be its location)
     let pfufu_middle_point = Point {
         x: (leftmost_point.x + rightmost_point.x) / 2.0,
         y: (topmost_point.y + bottommost_point.y) / 2.0
     };
-
+    
     pfufu_middle_point
 }

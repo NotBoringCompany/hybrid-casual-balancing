@@ -22,5 +22,5 @@ export enum TargetType {
     // the attribute can target both enemies and allies
     Both = 'Both',
     // the attribute can target both enemies and allies and targets an area of choice (usually done with AOE skills/weapons)
-    BothAndRadius = 'Both and Radius',
+    All = 'All',
 }
