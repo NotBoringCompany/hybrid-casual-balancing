@@ -16,8 +16,8 @@ pub struct Item {
 /// Represents an item's attribute.
 #[derive(Clone, Serialize, Deserialize, Debug)]
 pub struct ItemAttribute {
-    /// the item's attribute
-    attribute: Attribute,
+    /// the item's type
+    item_type: ItemType,
     /// the chance for the attribute to play out (in a ratio from 0 to 1)
     chance: f64,
     /// the attribute's modifier
@@ -29,16 +29,14 @@ pub struct ItemAttribute {
 /// Represents an item's modifier.
 #[derive(Clone, Serialize, Deserialize, Debug)]
 pub struct ItemModifier {
-    /// the item type
-    item_type: ItemType,
     /// status effects inflicted (if any)
     status_effects: Option<Vec<StatusEffect>>,
-    /// stat boost (if any)
-    stat_boost: Option<Vec<Stat>>,
+    /// stat boosts (if any)
+    stat_boosts: Option<Vec<Stat>>,
     /// the value of the modifier (0 if `status_effects` is present)
     /// 
-    /// note: if stat_boost is present, the length of `value` MUST be equal to the length of `stat_boost`
-    value: Vec<f64>,
+    /// note: if stat_boost is present, the length of `values` MUST be equal to the length of `stat_boost`
+    values: Vec<f64>,
 }
 
 /// Lists all available item types.

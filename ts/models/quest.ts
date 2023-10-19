@@ -1,5 +1,5 @@
 import { AvailableEnemies, EnemiesRequired, Enemy } from './enemy'
-import { ItemsRequired } from './items'
+import { ItemsRequired } from './item'
 import { ResourcesRequired } from './resource'
 
 export interface Quest {

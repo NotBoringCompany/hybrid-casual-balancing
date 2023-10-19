@@ -1,7 +1,7 @@
 import path from 'path'
 import fs from 'fs'
 import { MiscReward, Quest } from '../../models/quest'
-import { ItemVariants } from '../../models/items'
+import { ItemVariants } from '../../models/item'
 import { AvailableEnemies } from '../../models/enemy'
 import { Resource } from '../../models/resource'
 
