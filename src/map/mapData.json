@@ -3481,7 +3481,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -3492,39 +3492,39 @@
          "objects":[
                 {
                  "ellipse":true,
-                 "height":319.333333333333,
+                 "height":319.333,
                  "id":384,
                  "name":"Beacon 3 Unlock",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":319.333333333333,
+                 "width":319.333,
                  "x":131,
-                 "y":13.3333333333333
+                 "y":13.3333
                 }, 
                 {
                  "ellipse":true,
-                 "height":476.395348837209,
+                 "height":476.395,
                  "id":385,
                  "name":"Beacon 3 Breathable Area 1",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":482,
-                 "x":44.3333333333334,
-                 "y":-65.062015503876
+                 "x":44.3333,
+                 "y":-65.062
                 }, 
                 {
                  "ellipse":true,
-                 "height":631.286919831224,
+                 "height":631.287,
                  "id":386,
                  "name":"Beacon 3 Breathable Area 2",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":634.8585572843,
+                 "width":634.859,
                  "x":-36,
-                 "y":-134.286919831224
+                 "y":-134.287
                 }, 
                 {
                  "ellipse":true,
@@ -3540,7 +3540,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -3579,7 +3579,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -4302,7 +4302,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -4625,7 +4625,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -5430,7 +5430,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -6301,7 +6301,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -6337,6 +6337,52 @@
                  "width":0,
                  "x":748,
                  "y":465.25
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":25,
+         "name":"Chiro",
+         "objects":[
+                {
+                 "ellipse":true,
+                 "height":5.5,
+                 "id":389,
+                 "name":"Chiro",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":7.5,
+                 "x":318,
+                 "y":460.25
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":26,
+         "name":"Razer",
+         "objects":[
+                {
+                 "ellipse":true,
+                 "height":6.75,
+                 "id":390,
+                 "name":"Razer",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":9,
+                 "x":763.25,
+                 "y":498
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -6379,7 +6425,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -6426,7 +6472,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -7494,7 +7540,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -7505,15 +7551,15 @@
          "objects":[
                 {
                  "ellipse":true,
-                 "height":305.333333333333,
+                 "height":305.333,
                  "id":374,
                  "name":"Beacon 1 Unlock",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":305.333333333333,
+                 "width":305.333,
                  "x":644,
-                 "y":515.333333333333
+                 "y":515.333
                 }, 
                 {
                  "ellipse":true,
@@ -7535,25 +7581,25 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":511.937110834371,
-                 "x":536.312889165629,
+                 "width":511.937,
+                 "x":536.313,
                  "y":418.75
                 }, 
                 {
                  "ellipse":true,
-                 "height":643.150194262185,
+                 "height":643.15,
                  "id":377,
                  "name":"Beacon 1 Breathable Area 3",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":639.946318756074,
-                 "x":466.022181243926,
+                 "width":639.946,
+                 "x":466.022,
                  "y":360.25
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -7564,27 +7610,27 @@
          "objects":[
                 {
                  "ellipse":true,
-                 "height":361.833333333333,
+                 "height":361.833,
                  "id":378,
                  "name":"Beacon 2 Unlock",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":361.833333333333,
+                 "width":361.833,
                  "x":351.5,
                  "y":318
                 }, 
                 {
                  "ellipse":true,
-                 "height":558.666666666667,
+                 "height":558.667,
                  "id":379,
                  "name":"Beacon 2 Breathable Area 1",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":558.666666666667,
+                 "width":558.667,
                  "x":252,
-                 "y":224.666666666667
+                 "y":224.667
                 }, 
                 {
                  "ellipse":true,
@@ -7595,24 +7641,24 @@
                  "type":"",
                  "visible":true,
                  "width":699.333,
-                 "x":179.666833333333,
-                 "y":161.000166666667
+                 "x":179.667,
+                 "y":161
                 }, 
                 {
                  "ellipse":true,
-                 "height":855.226666666666,
+                 "height":855.227,
                  "id":381,
                  "name":"Beacon 2 Breathable Area 3",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":822.333333333333,
-                 "x":116.179487179487,
-                 "y":92.2666666666669
+                 "width":822.333,
+                 "x":116.179,
+                 "y":92.2667
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -7635,13 +7681,13 @@
                 }, 
                 {
                  "ellipse":true,
-                 "height":483.833333333334,
+                 "height":483.833,
                  "id":369,
                  "name":"Pfufu Breathable Area 1",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":483.833333333334,
+                 "width":483.833,
                  "x":584.5,
                  "y":746.5
                 }, 
@@ -7653,13 +7699,13 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":673.153452685422,
+                 "width":673.153,
                  "x":496,
                  "y":650
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -8337,12 +8383,12 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }],
- "nextlayerid":25,
- "nextobjectid":389,
+ "nextlayerid":27,
+ "nextobjectid":391,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",

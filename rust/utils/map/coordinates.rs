@@ -1,3 +1,5 @@
+use crate::utils::load_map_uninverted;
+
 use super::load::load_map;
 
 /// By default, the coordinate system has top left as the origin (0, 0). This means that the y value goes up as you go down the map.
@@ -7,7 +9,7 @@ use super::load::load_map;
 /// The process is to just get the "true y value" by reducing the map height with the current y value within the map.
 pub fn convert_coord_system() -> () {
     // load the map data
-    let mut map_data = load_map();
+    let mut map_data = load_map_uninverted();
 
     // height of the map (pixels, since the map is 32x32)
     let map_height: f64 = 1024.0;

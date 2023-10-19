@@ -27,27 +27,27 @@ pub struct Enemy {
     live_state: EnemyState,
     /// the enemy's base hp (essentially its max hp for this level)
     #[serde(rename = "baseHp")]
-    base_hp: u16,
+    base_hp: f64,
     /// the enemy's hp regen per second
     #[serde(rename = "baseHpRegen")]
-    base_hp_regen: u16,
+    base_hp_regen: f64,
     /// how fast the enemy moves (units per second)
     #[serde(rename = "baseMovementSpeed")]
-    base_movement_speed: u16,
+    base_movement_speed: f64,
     /// how much damage the enemy deals per attack
     #[serde(rename = "baseDamage")]
-    base_damage: u16,
+    base_damage: f64,
     /// how fast the enemy shoots its projectile (only if ranged; 0 if melee)
     #[serde(rename = "baseProjectileSpeed")]
-    base_projectile_velocity: u16,
+    base_projectile_velocity: f64,
     /// how far the enemy can start attacking (melee will also have an attack range)
     #[serde(rename = "baseAttackRange")]
-    base_attack_range: u16,
+    base_attack_range: f64,
     /// how fast each subsequent attack happens (in seconds).
     /// 
     /// note that the first attack will always be half of this (due to the attack animation; ~50% through, attack happens)
     #[serde(rename = "baseAttackTime")]
-    base_attack_time: u8,
+    base_attack_time: f64,
     /// the probability of dealing a critical hit (in a ratio from 0 to 1)
     #[serde(rename = "critChance")]
     crit_chance: f64,
@@ -72,14 +72,13 @@ pub struct EnemyState {
     is_dead: bool,
     /// the enemy's current hp
     #[serde(rename = "currentHp")]
-    current_hp: u16,
+    current_hp: f64,
     /// the status effects inflicted to the enemy (if any; can be multiple)
     #[serde(rename = "currentStatusEffects")]
     current_status_effects: Option<Vec<StatusEffect>>,
     /// whenever the enemy moves, this field will be updated to reflect its current position
     #[serde(rename = "currentPosition")]
     current_position: Point,
-
     /// a timestamp to reflect the enemy's last death. this is used to determine when the enemy can respawn again, based on `respawn_time` in `Enemy`
     last_death: DateTime<Utc>,
     /// a timestamp to reflect the enemy's last attack. since this is a purely coded version of the game, attack animations don't really "play out"; instead, we use this field to determine when the enemy can attack again

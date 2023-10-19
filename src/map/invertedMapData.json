@@ -3327,29 +3327,29 @@
         {
           "name": "Beacon 3 Unlock",
           "ellipse": true,
-          "height": 319.333333333333,
-          "width": 319.333333333333,
+          "height": 319.333,
+          "width": 319.333,
           "polygon": null,
           "x": 131.0,
-          "y": 1010.6666666666667
+          "y": 1010.6667
         },
         {
           "name": "Beacon 3 Breathable Area 1",
           "ellipse": true,
-          "height": 476.395348837209,
+          "height": 476.395,
           "width": 482.0,
           "polygon": null,
-          "x": 44.3333333333334,
-          "y": 1089.062015503876
+          "x": 44.3333,
+          "y": 1089.062
         },
         {
           "name": "Beacon 3 Breathable Area 2",
           "ellipse": true,
-          "height": 631.286919831224,
-          "width": 634.8585572843,
+          "height": 631.287,
+          "width": 634.859,
           "polygon": null,
           "x": -36.0,
-          "y": 1158.286919831224
+          "y": 1158.287
         },
         {
           "name": "Beacon 3 Breathable Area 3",
@@ -5853,6 +5853,34 @@
       ]
     },
     {
+      "name": "Chiro",
+      "objects": [
+        {
+          "name": "Chiro",
+          "ellipse": true,
+          "height": 5.5,
+          "width": 7.5,
+          "polygon": null,
+          "x": 318.0,
+          "y": 563.75
+        }
+      ]
+    },
+    {
+      "name": "Razer",
+      "objects": [
+        {
+          "name": "Razer",
+          "ellipse": true,
+          "height": 6.75,
+          "width": 9.0,
+          "polygon": null,
+          "x": 763.25,
+          "y": 526.0
+        }
+      ]
+    },
+    {
       "name": "Witch's Hut",
       "objects": [
         {
@@ -6721,11 +6749,11 @@
         {
           "name": "Beacon 1 Unlock",
           "ellipse": true,
-          "height": 305.333333333333,
-          "width": 305.333333333333,
+          "height": 305.333,
+          "width": 305.333,
           "polygon": null,
           "x": 644.0,
-          "y": 508.66666666666697
+          "y": 508.66700000000003
         },
         {
           "name": "Beacon 1 Breathable Area 1",
@@ -6740,18 +6768,18 @@
           "name": "Beacon 1 Breathable Area 2",
           "ellipse": true,
           "height": 514.5,
-          "width": 511.937110834371,
+          "width": 511.937,
           "polygon": null,
-          "x": 536.312889165629,
+          "x": 536.313,
           "y": 605.25
         },
         {
           "name": "Beacon 1 Breathable Area 3",
           "ellipse": true,
-          "height": 643.150194262185,
-          "width": 639.946318756074,
+          "height": 643.15,
+          "width": 639.946,
           "polygon": null,
-          "x": 466.022181243926,
+          "x": 466.022,
           "y": 663.75
         }
       ]
@@ -6762,8 +6790,8 @@
         {
           "name": "Beacon 2 Unlock",
           "ellipse": true,
-          "height": 361.833333333333,
-          "width": 361.833333333333,
+          "height": 361.833,
+          "width": 361.833,
           "polygon": null,
           "x": 351.5,
           "y": 706.0
@@ -6771,11 +6799,11 @@
         {
           "name": "Beacon 2 Breathable Area 1",
           "ellipse": true,
-          "height": 558.666666666667,
-          "width": 558.666666666667,
+          "height": 558.667,
+          "width": 558.667,
           "polygon": null,
           "x": 252.0,
-          "y": 799.333333333333
+          "y": 799.333
         },
         {
           "name": "Beacon 2 Breathable Area 2",
@@ -6783,17 +6811,17 @@
           "height": 699.333,
           "width": 699.333,
           "polygon": null,
-          "x": 179.666833333333,
-          "y": 862.999833333333
+          "x": 179.667,
+          "y": 863.0
         },
         {
           "name": "Beacon 2 Breathable Area 3",
           "ellipse": true,
-          "height": 855.226666666666,
-          "width": 822.333333333333,
+          "height": 855.227,
+          "width": 822.333,
           "polygon": null,
-          "x": 116.179487179487,
-          "y": 931.7333333333331
+          "x": 116.179,
+          "y": 931.7333
         }
       ]
     },
@@ -6812,8 +6840,8 @@
         {
           "name": "Pfufu Breathable Area 1",
           "ellipse": true,
-          "height": 483.833333333334,
-          "width": 483.833333333334,
+          "height": 483.833,
+          "width": 483.833,
           "polygon": null,
           "x": 584.5,
           "y": 277.5
@@ -6822,7 +6850,7 @@
           "name": "Pfufu Breathable Area 2",
           "ellipse": true,
           "height": 697.0,
-          "width": 673.153452685422,
+          "width": 673.153,
           "polygon": null,
           "x": 496.0,
           "y": 374.0

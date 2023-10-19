@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="25" nextobjectid="389">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="27" nextobjectid="391">
  <editorsettings>
   <export target="mapData.json" format="json"/>
  </editorsettings>
@@ -552,6 +552,16 @@
    <polygon points="0,0 19.75,-22.75 44,-2 20.75,16.5"/>
   </object>
  </objectgroup>
+ <objectgroup id="25" name="Chiro">
+  <object id="389" name="Chiro" x="318" y="460.25" width="7.5" height="5.5">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="26" name="Razer">
+  <object id="390" name="Razer" x="763.25" y="498" width="9" height="6.75">
+   <ellipse/>
+  </object>
+ </objectgroup>
  <objectgroup id="11" name="Witch's Hut" visible="0">
   <object id="253" name="Witch's Hut" x="301.455" y="460.909">
    <polygon points="0,0 -18.1818,-16.1818 0.181818,-33.2727 17.8182,-14.9091"/>
@@ -562,7 +572,7 @@
    <polygon points="0,0 -4.36364,-0.909091 -4.72727,1.45455 -2.90909,5.81818 0.545455,5.09091 1.45455,2.36364"/>
   </object>
  </objectgroup>
- <objectgroup id="13" name="Enemies" visible="0">
+ <objectgroup id="13" name="Enemies">
   <object id="255" name="Trufo" x="745.75" y="881.75" width="8.25" height="7.25">
    <ellipse/>
   </object>
